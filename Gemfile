@@ -22,3 +22,4 @@ gem "modular-scale"
 # Needed for Heroku
 gem 'puma',      '~> 2.7'
 gem 'rake',      '~> 10.1'
+gem 'rack-contrib'
