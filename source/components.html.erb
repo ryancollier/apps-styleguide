@@ -1,0 +1,212 @@
+---
+title: Components | Style Guide
+layout: styleguide
+---
+
+
+<div class="row">
+  <div class="col-md-9">
+
+    <h1>Components</h1>
+    <p>Basic building blocks added as needed.</p>
+
+    <hr /> 
+  
+    <!--  ///////////////  Buttons ///////////////  -->
+
+    <h2 class="section-heading page-header" id="buttons">Buttons</h2>
+      
+      <div class="example">
+
+        <h3 id="buttons-tags">Basic button tags</h3>
+        <p>Use the button classes on an <code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, or <code>&lt;input&gt;</code> element.</p>
+        <form class="bs-example" data-example-id="btn-tags">
+          <a class="btn btn-default" href="#" role="button">Link</a>
+          <button class="btn btn-default" type="submit">Button</button>
+          <input class="btn btn-default" type="button" value="Input">
+          <input class="btn btn-default" type="submit" value="Submit">
+        </form>
+
+        <h3 id="buttons-options">Options</h3>
+        <p>Use any of the available button classes to quickly create a styled button.</p>
+        <div class="bs-example" data-example-id="btn-variants">
+          <button type="button" class="btn btn-default">Default</button>
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-success">Success</button>
+          <button type="button" class="btn btn-info">Info</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <button type="button" class="btn btn-danger">Danger</button>
+          <button type="button" class="btn btn-link">Link</button>
+        </div>
+
+
+
+
+        <h3 id="buttons-sizes">Sizes</h3>
+        <p>Fancy larger or smaller buttons? Add <code>.btn-lg</code>, <code>.btn-sm</code>, or <code>.btn-xs</code> for additional sizes.</p>
+        <div class="bs-example" data-example-id="btn-sizes">
+          <p>
+            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+            <button type="button" class="btn btn-default btn-lg">Large button</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-primary">Default button</button>
+            <button type="button" class="btn btn-default">Default button</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-primary btn-sm">Small button</button>
+            <button type="button" class="btn btn-default btn-sm">Small button</button>
+          </p>
+          <p>
+            <button type="button" class="btn btn-primary btn-xs">Extra small button</button>
+            <button type="button" class="btn btn-default btn-xs">Extra small button</button>
+          </p>
+        </div>
+
+    </div>
+
+    <!-- ///////////////  Summary Panels ///////////////  -->
+
+    <h2 class="section-heading page-header" id="summary-panels">Summary panels</h2>
+
+
+    <h3>Basic panel</h3>
+    <div class="example">
+
+      <div class="panel panel-default">
+
+          <div class="panel-body">
+              Basic panel example
+          </div>
+    </div>
+
+  </div>
+
+
+    <h3>Panel with content and footer block button</h3>
+    <div class="example">
+
+      <div class="panel panel-summary">
+          <div class="panel-header">
+            <h3>Panel Title</h3>
+          </div>
+          
+          <div class="panel-body">
+            <p class="figure-primary h3">Primary Figure <small class="figure-label">2013 Dollars</small></p>
+            <hr />
+
+            <p class="summary-content">
+                 <%= lorem.words 30 %>
+            </p>
+          </div>
+
+          <div class="panel-footer button">
+              <a href="#" class="btn btn-block btn-primary">Interact &raquo;</a>
+          </div>
+      </div>
+
+    </div><!-- /.example -->
+
+
+    <h3>Panel with ordered list widget</h3>
+    <div class="example">
+
+      <div class="panel panel-summary">
+          <div class="panel-header">
+            <h3>Panel Title</h3>
+          </div>
+          
+          <div class="panel-body">
+            <p class="figure-primary h3"><span class="currency">$</span>Primary Figure <small class="figure-label">2013 Dollars</small></p>
+            <hr />
+
+            <p class="summary-content">    
+               
+              <div class="widget-list"> 
+               <h4>Ordered List</h4>
+                <ol>
+                  <li><%= lorem.words 5 %></li>
+                  <li><%= lorem.words 5 %></li>
+                  <li><%= lorem.words 5 %></li>
+                </ol>
+              </div>
+
+            </p>
+          </div>
+
+          <div class="panel-footer button">
+              <a href="#" class="btn btn-block btn-primary">Interact &raquo;</a>
+          </div>
+      </div>
+
+    </div><!-- /.example -->
+
+
+     <!-- ///////////////  Data Panels ///////////////  -->
+
+  <h2 class="section-heading page-header" id="data-panels">Data Panels</h2>
+
+
+  <h3>Basic data panel</h3>
+
+      <div class="example">
+            
+            <div class="panel panel-data">
+                    <div class="row">
+                    <div class="col-md-12"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="h1"aria-hidden="true">&times;</span></button></div>
+                </div>
+                <div class="row">
+               
+                <div class="col-md-8">
+                <div class="visualization">
+                 
+                   <!-- Don't use an image. This is a Sample! -->
+                   <img class="img-responsive sample-visualization" src="http://placehold.it/900x800/ffffff/&amp;text=Data+Visualization" alt="" style="border: 1px solid #eee"/>
+                
+                </div>
+              </div>
+                  
+                <div class="col-md-4">
+                  <div class="data-info">
+
+                      <h4 class="heading">About This View</h4>
+                      <p class="info"><%= lorem.words 50 %></p>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          
+
+        </div><!-- /.example -->
+
+
+
+
+<!-- End Component Contents -->
+
+
+  </div><!-- /.col-md-9 -->
+
+
+<!-- Navigation -->
+  <div class="col-md-2 col-md-offset-1">
+        <nav class="sidebar hidden-print hidden-xs hidden-sm affix" data-spy="affix" data-offset-top="0" data-offset-bottom="200">
+             <ul class="nav nav-stacked content-nav">
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#summary-panels">Summary Panels</a></li>
+                <li><a href="#data-panels">Data Panels</a></li>
+              </ul>
+          </nav>
+
+  </div><!-- ./col-md-2  -->
+</div><!-- /.row -->
+
+
+      
+
+
+   
+  

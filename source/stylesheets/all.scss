@@ -1,0 +1,277 @@
+
+//Modular Scale for Typography and Vertical Rhythm
+@import "modular-scale";
+$ms-base: 15px;
+$ms-ratio: 1.333, 1.25;
+
+// Re-Define Bootstrap Variables -- Need to be defined before bootstrap core import for variables to work! 
+@import "_bootstrap-vars";
+
+//Pannels 
+$panel-border-radius: 0px;
+
+
+// Import Core
+@import "bootstrap";
+
+
+//Overrides (not vars)
+
+h1, .h1,
+h2, .h2,
+h3, .h3, 
+h4, .h4, 
+h5, .h5, 
+h6, .h6, 
+{
+	font-weight: 600;
+}
+
+
+.loud {
+	font-weight: 700;
+}
+
+.quiet {
+	color: $gray-light;
+	font-weight: 300;
+}
+
+dd {
+	margin-bottom: ms(-6)
+}
+
+
+// Summary Panels
+
+.panel-default, .panel-summary {
+//@include panel-variant($border, $heading-text-color, $heading-bg-color, $heading-border)
+	@include panel-variant($gray-lighterer, $gray-dark, $gray-lighterer, $gray-lighterer);
+}
+
+
+// Summary Panel includes branding and standard content set
+
+.panel-summary {
+	.panel-header {
+		padding: $padding-base-vertical $padding-base-horizontal 0;
+		h2, h3, h4 {
+			font-size: ms(0);
+			margin: 0 0;
+			color: $gray-light;
+		} 
+
+	}
+	.panel-body {
+		min-height: 250px;
+		padding-top: 0;
+		.figure-primary {
+			font-weight: 700;
+			span.currency {
+				display: inline;
+				font-size: ms(1);
+				vertical-align: super;
+			}
+			margin: 0 0;
+			small.figure-label {
+				display: block;
+				font-size: ms(0);
+				padding-left: 2px;
+			}
+		}
+		.widget-list{
+			@extend .quiet;
+			h4 {
+				margin-bottom: 0;
+				font-size: ms(0);
+				font-weight: 600;
+				color: $gray-light;
+
+			}
+			ul, ol {
+				padding-left: 20px;
+
+			}
+		}
+
+	}
+	.summary-content {
+		@extend .quiet;
+	}
+	.panel-footer {
+		border-top: none;
+		&.button {
+			padding: 0;
+		}		
+		.btn {
+			@include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, 0px);
+			font-weight: 500;
+		}
+	}
+}
+
+
+// Data Panel
+
+.panel-data {
+	&.wrapper {
+		padding: 0;
+	}
+	background: $gray-lighter;
+	box-shadow: none;
+	.visualization {
+		
+	}
+	.data-info {
+		background: $gray-lighter;
+		color: $gray;
+		.heading {
+			font-size: ms(0);
+			padding: $padding-base-vertical 0;
+			
+			font-weight: 600;
+			color: $gray;
+		}
+		padding: $padding-base-vertical $padding-base-horizontal
+	}
+
+}
+
+
+
+// ====================================================================================================================
+// ====================================================================================================================
+
+// Style Guide Specific
+
+// ====================================================================================================================
+// ====================================================================================================================
+
+
+body {
+  min-height: 800px;
+  padding-top: 70px;
+ 
+  &.samples {
+  	padding-top: 0px;
+  }
+
+ }
+
+// Adjust the jump-to headings with IDs so they aren't hidden by nav
+ h2.section-heading:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -70px; 
+  height: 70px; 
+  visibility: hidden; 
+}
+
+.content-nav {
+	margin-top: ms(8);
+	font-size: ms(0);
+	width: 165px;
+	li a:active {
+		outline: none;
+	}
+}
+
+.example {
+	background-color: #fff;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 45px 15px 15px;
+    position: relative;
+}
+
+.example:after {
+    color: #959595;
+    content: "Example";
+    font-size: 12px;
+    font-weight: 700;
+    left: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 15px;
+ }
+
+
+ .sg-section {
+ 	margin-bottom: 60px;
+
+ }
+
+// Color Swatches 
+.color-swatches {
+    margin: 0 -5px;
+    overflow: hidden;
+}
+
+ .color-swatch {
+ 	background: #eee;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 5px;
+
+    &.gray-base {
+    	background-color: $gray-base;
+    }    
+    &.gray-darker {
+    	background-color: $gray-darker;
+    }    
+    &.gray-dark {
+    	background-color: $gray-dark;
+    }    
+    &.gray {
+    	background-color: $gray;
+    }    
+    &.gray-light {
+    	background-color: $gray-light;
+    }    
+    &.gray-lighterish {
+    	background-color: $gray-lighterish;
+    }    
+    &.gray-lighter {
+    	background-color: $gray-lighter;
+    }
+    &.gray-lighterer {
+    	background-color: $gray-lighterer;
+    }
+
+
+    &.brand-primary{
+    	background-color: $brand-primary;
+    }    
+    &.brand-success {
+    	background-color: $brand-success;
+    }    
+    &.brand-info {
+    	background-color: $brand-info;
+    }    
+    &.brand-warning {
+    	background-color: $brand-warning;
+    }    
+    &.brand-danger {
+    	background-color: $brand-danger;
+    }    
+}
+
+
+// Data Panel
+
+.sample-visualization {
+	padding: $padding-base-vertical;
+}
+
+
+footer {
+	height: 40px;
+	padding: 20px 0 40px;
+}

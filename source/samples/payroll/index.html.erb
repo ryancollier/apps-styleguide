@@ -1,0 +1,210 @@
+---
+title: Payroll
+---
+
+    <div class="jumbotron">
+      <div class="container">
+        
+        <div class="row">
+          <h1 class="text-center">Payroll</h1>
+
+        		
+        			<div class="col-md-8 col-md-offset-2">
+        			
+        				<p class="quiet hidden-xs hidden-sm">
+                  <%= 
+                    truncate_words("Nobis et aspernatur debitis voluptatem minima. voluptatem aut eum ad. ad pariatur est nobis deleniti blanditiis nemo quos praesentium et quae omnis. necessitatibus omnis cum minima facilis rem consequatur ducimus possimus quasi illo velit est est ullam. tempore consequuntur nisi iusto quidem praesentium inventore eos rem ipsum quas nesciunt voluptatem Debitis modi fugiat velit voluptatem minus magni animi eius eveniet ea corrupti ab occaecati. quia corrupti tenetur nihil nihil nesciunt omnis doloremque. officia quas est et odit corporis repellat sint. ut recusandae ipsa est. et saepe id distinctio voluptas aut aut ut ab praesentium ipsum magnam quibusdam eum illo", :length => 45) 
+
+                  %>
+             
+
+        				  <p class="text-center"><a class="btn btn-default btn-md" href="#" role="button">About &raquo;</a></p>
+        		
+        		</div>
+        	</div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+
+      		<div class="col-md-12">
+      			<h2 class="h6 quiet">Payroll Summary</h2>
+      		</div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+
+      
+      <div class="panel panel-summary">
+          <div class="panel-header">
+            <h3>Panel Title</h3>
+          </div>
+          
+          <div class="panel-body">
+            <p class="figure-primary h3">Primary Figure <small class="figure-label">2013 Dollars</small></p>
+            <hr />
+
+            <p class="summary-content">
+                 <%= lorem.words 30 %>
+            </p>
+          </div>
+
+          <div class="panel-footer button">
+              <a href="#" class="btn btn-block btn-primary">Show Chart</a>
+          </div>
+      </div>
+
+
+
+        </div>
+        <div class="col-sm-4">
+        	
+          <div class="panel panel-summary">
+            <div class="panel-header">
+              <h3>Panel Title</h3>
+            </div>
+            
+            <div class="panel-body">
+              <p class="figure-primary h3"><span class="currency">$</span>Primary Figure <small class="figure-label">2013 Dollars</small></p>
+              <hr />
+
+              <p class="summary-content">    
+                 
+                <div class="widget-list"> 
+                 <h4>Ordered List</h4>
+                  <ol>
+                    <li><%= lorem.words 5 %></li>
+                    <li><%= lorem.words 5 %></li>
+                    <li><%= lorem.words 5 %></li>
+                  </ol>
+                </div>
+
+            </p>
+          </div>
+
+          <div class="panel-footer button">
+              <a href="#" class="btn btn-block btn-primary">Show Chart</a>
+          </div>
+      </div>
+
+       </div>
+        <div class="col-sm-4">
+   				
+      <div class="panel panel-summary">
+          <div class="panel-header">
+            <h3>Panel Title</h3>
+          </div>
+          
+          <div class="panel-body">
+            <p class="figure-primary h3"><span class="currency">$</span>Primary Figure <small class="figure-label">2013 Dollars</small></p>
+            <hr />
+
+            <p class="summary-content">    
+               
+              <div class="widget-list"> 
+               <h4>Ordered List</h4>
+                <ol>
+                  <li><%= lorem.words 5 %></li>
+                  <li><%= lorem.words 5 %></li>
+                  <li><%= lorem.words 5 %></li>
+                </ol>
+              </div>
+
+            </p>
+          </div>
+
+          <div class="panel-footer button">
+              <a class="btn btn-block btn-primary">Show Chart</a>
+          </div>
+      </div>
+
+        </div>
+      </div>
+
+</div> <!-- /container -->
+
+      <div id="ex-panel" class="panel-data wrapper">
+
+
+        <div class="container">
+
+        
+
+           <div class="panel panel-data">
+
+                <div class="row">
+                    <div class="col-md-12"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="h1"aria-hidden="true">&times;</span></button></div>
+                </div>
+                <div class="row">
+               
+                <div class="col-md-8">
+                <div class="visualization">
+                 
+                   <!-- Don't use an image. This is a Sample! -->
+                   <img class="img-responsive sample-visualization" src="http://placehold.it/900x800/ffffff/&amp;text=Data+Visualization" alt="" style="border: 1px solid #eee"/>
+                
+                </div>
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="data-info">
+
+                      <h4 class="heading">About This View</h4>
+                      <p class="info"><%= lorem.words 50 %></p>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+      </div>
+
+  </div>
+
+
+<% content_for :page_js do %>
+  
+  <script>
+
+      // This is but a wee prtototype, friend. Not nearly big or strong enough for the real world.
+
+      $("#ex-panel").collapse("hide");
+
+      //Set Data Values for Text Swap
+      $(".panel-footer .btn").attr("data-text-swap", "Hide Chart").attr("data-text-original", "Show Chart");
+      
+      //Toggle Collapse on Show Chart
+      $(".panel-footer .btn").on("click", function(e){
+          e.preventDefault();
+          var el = $(this);
+          el.text() == el.data("text-swap") 
+            ? el.text(el.data("text-original")) 
+            : el.text(el.data("text-swap"));
+
+          $("#ex-panel").collapse("toggle");
+          $(el).toggleClass("active");
+          
+      })
+
+      //Dismiss Data Panel with Close Button
+      $(".close").on("click", function() {
+          var btn = $(".panel-footer .btn.active")
+            $("#ex-panel").collapse("toggle");
+            btn.toggleClass("active");
+            btn.text(btn.data("text-original"));
+      })
+
+
+      
+
+  </script>
+  
+<% end %>
+ 

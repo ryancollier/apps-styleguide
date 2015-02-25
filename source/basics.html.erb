@@ -1,0 +1,675 @@
+---
+title: Basics | Styleguide
+layout: styleguide
+---
+
+<div class="row">
+
+  <div class="col-md-9">
+
+ <!-- Typography -->
+    <div class="row sg-section">
+
+      <div class="col-sm-12">
+
+      <h1>Basics</h1>  
+
+      <h2 class="section-heading page-header" id="typography">Typography</h2>
+      
+      <h3>Basic headings</h3>
+        
+          <div class="example">
+
+          <h1>h1. Heading</h1>
+          <h2>h2. Heading</h2>
+          <h3>h3. Heading</h3>
+          <h4>h4. Heading</h4>
+          <h5>h5. Heading</h5>
+          <h6>h6. Heading</h6>
+
+        </div><!-- example -->
+       
+         <h3>Headings with secondary text</h3> 
+
+          <div class="example">
+        
+          <h1>h1. Heading <small>Secondary text</small></h1>
+          <h2>h2. Heading <small>Secondary text</small></h2>
+          <h3>h3. Heading <small>Secondary text</small></h3>
+          <h4>h4. Heading <small>Secondary text</small></h4>
+          <h5>h5. Heading <small>Secondary text</small></h5>
+          <h6>h6. Heading <small>Secondary text</small></h6>
+        
+        </div><!-- example -->
+
+         <h3>Body copy</h3> 
+
+          <div class="example">
+        
+          <p>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+          <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>  
+        
+        </div><!--example -->
+
+      </div><!-- /col-sm-12 -->
+    </div><!-- row -->
+
+   <!-- Color -->
+
+<h2 class="section-heading page-header" id="colors">Colors</h2>
+  
+  <h4>Grayscale</h4>
+  <div class="example">
+    <div class="color-swatches">
+      <div class="color-swatch gray-darker"></div>
+      <div class="color-swatch gray-dark"></div>
+      <div class="color-swatch gray"></div>
+      <div class="color-swatch gray-light"></div>
+      <div class="color-swatch gray-lighterish"></div>
+      <div class="color-swatch gray-lighter"></div>
+      <div class="color-swatch gray-lighterer"></div>
+    </div>
+    
+    <hr />
+
+    <ul class="list-unstyled">
+      <li>$gray-base:              #000 !default;</li>
+      <li>$gray-darker:            lighten($gray-base, 13.5%) !default; // #222</li>
+      <li>$gray-dark:              lighten($gray-base, 20%) !default;   // #333</li>
+      <li>$gray:                   lighten($gray-base, 33.5%) !default; // #555</li>
+      <li>$gray-light:             lighten($gray-base, 46.7%) !default; // #777</li>
+      <li>$gray-lighterish:        lighten($gray-base, 66.3%) !default; // darkgray</li>
+      <li>$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee</li>
+      <li>$gray-lighterer:     lighten($gray-base, 95.9%) !default; // whitesmoke</li>
+
+    </ul>
+
+
+  </div>
+
+  <h4>Contextual</h4>
+  <div class="example">
+    <div class="color-swatches">
+      <div class="color-swatch brand-primary"></div>
+      <div class="color-swatch brand-success"></div>
+      <div class="color-swatch brand-info"></div>
+      <div class="color-swatch brand-warning"></div>
+      <div class="color-swatch brand-danger"></div>
+    </div>
+    
+    <hr />
+    
+    <ul class="list-unstyled">
+      <li>$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7</li>
+      <li>$brand-success:         #5cb85c !default;</li>
+      <li>$brand-info:            #5bc0de !default;</li>
+      <li>$brand-warning:         #f0ad4e !default;</li>
+      <li>$brand-danger:          #d9534f !default;</li>
+
+    </ul>
+
+  </div>
+ 
+
+
+   <!-- Lists -->
+    <div class="row sg-section">
+
+      <div class="col-sm-12">
+
+      <h2 class="section-heading page-header" id="lists">Lists</h2>
+
+      <h3>Unordered</h3>
+      <p>A list of items in which the order does <em>not</em> explicitly matter.</p>
+      <div class="example" data-example-id="simple-ul">
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Consectetur adipiscing elit</li>
+          <li>Integer molestie lorem at massa</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit
+            <ul>
+              <li>Phasellus iaculis neque</li>
+              <li>Purus sodales ultricies</li>
+              <li>Vestibulum laoreet porttitor sem</li>
+              <li>Ac tristique libero volutpat at</li>
+            </ul>
+          </li>
+          <li>Faucibus porta lacus fringilla vel</li>
+          <li>Aenean sit amet erat nunc</li>
+          <li>Eget porttitor lorem</li>
+        </ul>
+      </div>
+
+
+      <h3>Ordered</h3>
+      <p>A list of items in which the order <em>does</em> explicitly matter.</p>
+      <div class="example" data-example-id="simple-ol">
+        <ol>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Consectetur adipiscing elit</li>
+          <li>Integer molestie lorem at massa</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit</li>
+          <li>Faucibus porta lacus fringilla vel</li>
+          <li>Aenean sit amet erat nunc</li>
+          <li>Eget porttitor lorem</li>
+        </ol>
+      </div>
+
+      <h3>Unstyled</h3>
+      <p>Remove the default <code>list-style</code> and left margin on list items (immediate children only). <strong>This only applies to immediate children list items</strong>, meaning you will need to add the class for any nested lists as well.</p>
+      <div class="example" data-example-id="unstyled-list">
+        <ul class="list-unstyled">
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Consectetur adipiscing elit</li>
+          <li>Integer molestie lorem at massa</li>
+          <li>Facilisis in pretium nisl aliquet</li>
+          <li>Nulla volutpat aliquam velit
+            <ul>
+              <li>Phasellus iaculis neque</li>
+              <li>Purus sodales ultricies</li>
+              <li>Vestibulum laoreet porttitor sem</li>
+              <li>Ac tristique libero volutpat at</li>
+            </ul>
+          </li>
+          <li>Faucibus porta lacus fringilla vel</li>
+          <li>Aenean sit amet erat nunc</li>
+          <li>Eget porttitor lorem</li>
+        </ul>
+      </div>
+
+      <h3>Inline</h3>
+      <p>Place all list items on a single line with <code>display: inline-block;</code> and some light padding.</p>
+      <div class="example" data-example-id="list-inline">
+        <ul class="list-inline">
+          <li>Lorem ipsum</li>
+          <li>Phasellus iaculis</li>
+          <li>Nulla volutpat</li>
+        </ul>
+      </div>
+
+
+      <h3>Description</h3>
+      <p>A list of terms with their associated descriptions.</p>
+      <div class="example" data-example-id="simple-dl">
+        <dl>
+          <dt>Description lists</dt>
+          <dd>A description list is perfect for defining terms.</dd>
+          <dt>Euismod</dt>
+          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+          <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+          <dt>Malesuada porta</dt>
+          <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+        </dl>
+      </div>
+
+
+      <h4>Horizontal description</h4>
+      <p>Make terms and descriptions in <code>&lt;dl&gt;</code> line up side-by-side. Starts off stacked like default <code>&lt;dl&gt;</code>s, but when the navbar expands, so do these.</p>
+      <div class="example" data-example-id="horizontal-dl">
+        <dl class="dl-horizontal">
+          <dt>Description lists</dt>
+          <dd>A description list is perfect for defining terms.</dd>
+          <dt>Euismod</dt>
+          <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+          <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+          <dt>Malesuada porta</dt>
+          <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+          <dt>Felis euismod semper eget lacinia</dt>
+          <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+        </dl>
+      </div>
+
+
+      <div class="bs-callout bs-callout-info" id="callout-type-dl-truncate">
+        <h4>Auto-truncating</h4>
+        <p>Horizontal description lists will truncate terms that are too long to fit in the left column with <code>text-overflow</code>. In narrower viewports, they will change to the default stacked layout.</p>
+      </div>
+
+      </div><!-- /col-sm-12 -->
+    </div><!-- row -->
+
+    <div class="row">
+
+      <div class="col-sm-12">
+
+        <h2 id="tables" class="page-header section-heading">Tables</h2>
+
+        <h3 id="tables-example">Basic example</h3>
+        <p>For basic styling&mdash;light padding and only horizontal dividers&mdash;add the base class <code>.table</code> to any <code>&lt;table&gt;</code>. It may seem super redundant, but given the widespread use of tables for other plugins like calendars and date pickers, we've opted to isolate our custom table styles.</p>
+        <div class="example" data-example-id="simple-table">
+          <table class="table">
+            <caption>Optional table caption.</caption>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /example -->
+
+
+
+        <h3 id="tables-striped">Striped rows</h3>
+        <p>Use <code>.table-striped</code> to add zebra-striping to any table row within the <code>&lt;tbody&gt;</code>.</p>
+        <div class="bs-callout bs-callout-danger" id="callout-tables-striped-ie8">
+          <h4>Cross-browser compatibility</h4>
+          <p>Striped tables are styled via the <code>:nth-child</code> CSS selector, which is not available in Internet Explorer 8.</p>
+        </div>
+        <div class="example" data-example-id="striped-table">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /example -->
+
+
+
+
+        <h3 id="tables-bordered">Bordered table</h3>
+        <p>Add <code>.table-bordered</code> for borders on all sides of the table and cells.</p>
+        <div class="example" data-example-id="bordered-table">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /example -->
+
+
+
+        <h3 id="tables-hover-rows">Hover rows</h3>
+        <p>Add <code>.table-hover</code> to enable a hover state on table rows within a <code>&lt;tbody&gt;</code>.</p>
+        <div class="example" data-example-id="hoverable-table">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /example -->
+
+
+
+        <h3 id="tables-condensed">Condensed table</h3>
+        <p>Add <code>.table-condensed</code> to make tables more compact by cutting cell padding in half.</p>
+        <div class="example" data-example-id="condensed-table">
+          <table class="table table-condensed">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /example -->
+
+
+
+        <h3 id="tables-contextual-classes">Contextual classes</h3>
+        <p>Use contextual classes to color table rows or individual cells.</p>
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <colgroup>
+              <col class="col-xs-1">
+              <col class="col-xs-7">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">
+                  <code>.active</code>
+                </th>
+                <td>Applies the hover color to a particular row or cell</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <code>.success</code>
+                </th>
+                <td>Indicates a successful or positive action</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <code>.info</code>
+                </th>
+                <td>Indicates a neutral informative change or action</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <code>.warning</code>
+                </th>
+                <td>Indicates a warning that might need attention</td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  <code>.danger</code>
+                </th>
+                <td>Indicates a dangerous or potentially negative action</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+  
+        <div class="example" data-example-id="contextual-table">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+                <th>Column heading</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="active">
+                <th scope="row">1</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="success">
+                <th scope="row">3</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="info">
+                <th scope="row">5</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="warning">
+                <th scope="row">7</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+              <tr class="danger">
+                <th scope="row">9</th>
+                <td>Column content</td>
+                <td>Column content</td>
+                <td>Column content</td>
+              </tr>
+            </tbody>
+          </table>
+        </div><!-- /example -->
+
+        <div class="bs-callout bs-callout-warning" id="callout-tables-context-accessibility">
+          <h4>Conveying meaning to assistive technologies</h4>
+          <p>Using color to add meaning to a table row or individual cell only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (the visible text in the relevant table row/cell), or is included through alternative means, such as additional text hidden with the <code>.sr-only</code> class.</p>
+        </div>
+
+        <h3 id="tables-responsive">Responsive tables</h3>
+        <p>Create responsive tables by wrapping any <code>.table</code> in <code>.table-responsive</code> to make them scroll horizontally on small devices (under 768px). When viewing on anything larger than 768px wide, you will not see any difference in these tables.</p>
+
+        <div class="bs-callout bs-callout-warning" id="callout-tables-responsive-overflow">
+          <h4>Vertical clipping/truncation</h4>
+          <p>Responsive tables make use of <code>overflow-y: hidden</code>, which clips off any content that goes beyond the bottom or top edges of the table. In particular, this can clip off dropdown menus and other third-party widgets.</p>
+        </div>
+        <div class="bs-callout bs-callout-warning" id="callout-tables-responsive-ff-fieldset">
+          <h4>Firefox and fieldsets</h4>
+          <p>Firefox has some awkward fieldset styling involving <code>width</code> that interferes with the responsive table. This cannot be overriden without a Firefox-specific hack that we <strong>don't</strong> provide in Bootstrap:</p>
+      <div class="highlight"><pre><code class="language-css" data-lang="css"><span class="k">@-moz-document</span> <span class="n">url-prefix</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nt">fieldset</span> <span class="p">{</span> <span class="nl">display</span><span class="p">:</span> <span class="nb">table-cell</span><span class="p">;</span> <span class="p">}</span>
+      <span class="p">}</span></code></pre></div>
+          <p>For more information, read <a href="http://stackoverflow.com/questions/17408815/fieldset-resizes-wrong-appears-to-have-unremovable-min-width-min-content/17863685#17863685">this Stack Overflow answer</a>.</p>
+        </div>
+
+        <div class="example" data-example-id="simple-responsive-table">
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- /.table-responsive -->
+
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                  <th>Table heading</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                  <td>Table cell</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><!-- /.table-responsive -->
+        </div><!-- /example -->
+
+      </div> <!-- /col-sm-12 -->
+    </div> <!-- /row -->
+
+  </div>
+  <div class="col-md-2 col-md-offset-1">
+        <nav class="sidebar hidden-print hidden-xs hidden-sm affix" data-spy="affix" data-offset-top="0" data-offset-bottom="200">
+             <ul class="nav nav-stacked content-nav">
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#colors">Colors</a></li>
+                <li><a href="#lists">Lists</a></li>
+                <li><a href="#tables">Tables</a></li>
+              </ul>
+          </nav>
+
+  </div>
