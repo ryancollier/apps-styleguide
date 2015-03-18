@@ -1,0 +1,5000 @@
+{
+  "name": "Spending",
+  "children": [
+  {
+    "name": "International Assistance Programs", 
+    "children": [
+      {
+        "name": "Peace Corps", 
+        "children": [
+          {
+            "size": 379000, 
+            "name": "Peace Corps", 
+            "bud13": 377000
+          }
+        ]
+      }, 
+      {
+        "name": "Military Sales Program", 
+        "children": [
+          {
+            "size": 28000000, 
+            "name": "Foreign Military Sales Trust Fund", 
+            "bud13": 33880000
+          }
+        ]
+      }, 
+      {
+        "name": "African Development Foundation", 
+        "children": [
+          {
+            "size": 24000, 
+            "name": "African Development Foundation", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Gifts and Donations, African Development Foundation", 
+            "bud13": 2000
+          }
+        ]
+      }, 
+      {
+        "name": "Multilateral Assistance", 
+        "children": [
+          {
+            "size": 216000, 
+            "name": "Clean Technology Fund", 
+            "bud13": 186000
+          }, 
+          {
+            "size": 30000, 
+            "name": "Contributions to the International Fund for Agricultural Development", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 336000, 
+            "name": "Contribution to the International Bank for Reconstruction and Development", 
+            "bud13": 208000
+          }, 
+          {
+            "size": 222000, 
+            "name": "Contribution to the Asian Development Bank", 
+            "bud13": 208000
+          }, 
+          {
+            "size": 25000, 
+            "name": "International Affairs Technical Assistance Program", 
+            "bud13": 27000
+          }, 
+          {
+            "size": 68000, 
+            "name": "Strategic Climate Fund", 
+            "bud13": 50000
+          }, 
+          {
+            "size": 257000, 
+            "name": "Contribution to the African Development Bank", 
+            "bud13": 214000
+          }, 
+          {
+            "size": 102000, 
+            "name": "Contribution to the Inter-American Development Bank", 
+            "bud13": 80000
+          }, 
+          {
+            "size": 321000, 
+            "name": "International Organizations and Programs", 
+            "bud13": 352000
+          }, 
+          {
+            "size": 135000, 
+            "name": "Global Food Security Fund", 
+            "bud13": 136000
+          }, 
+          {
+            "size": 6000, 
+            "name": "Contribution to Enterprise for the Americas Multilateral Investment Fund", 
+            "bud13": 25000
+          }, 
+          {
+            "size": 1504000, 
+            "name": "Contribution to the International Development Association", 
+            "bud13": 1501000
+          }
+        ]
+      }, 
+      {
+        "name": "International Security Assistance", 
+        "children": [
+          {
+            "size": 5957000, 
+            "name": "Foreign Military Financing Program", 
+            "bud13": 6344000
+          }, 
+          {
+            "size": 106000, 
+            "name": "International Military Education and Training", 
+            "bud13": 106000
+          }, 
+          {
+            "size": 347000, 
+            "name": "Peacekeeping Operations", 
+            "bud13": 386000
+          }, 
+          {
+            "size": 5458000, 
+            "name": "Economic Support Fund", 
+            "bud13": 5674000
+          }, 
+          {
+            "size": 616000, 
+            "name": "Nonproliferation, Antiterrorism, Demining, and Related Programs", 
+            "bud13": 715000
+          }
+        ]
+      }, 
+      {
+        "name": "Agency for International Development", 
+        "children": [
+          {
+            "size": 48000, 
+            "name": "Development Credit Authority Program Account", 
+            "bud13": 8000
+          }, 
+          {
+            "size": 54000, 
+            "name": "Operating Expenses, Office of Inspector General", 
+            "bud13": 51000
+          }, 
+          {
+            "size": 2045000, 
+            "name": "International Disaster Assistance", 
+            "bud13": 980000
+          }, 
+          {
+            "size": 1399000, 
+            "name": "Operating Expenses of the Agency for International Development", 
+            "bud13": 1354000
+          }, 
+          {
+            "size": 50000, 
+            "name": "Miscellaneous Trust Funds, AID", 
+            "bud13": 50000
+          }, 
+          {
+            "size": 118000, 
+            "name": "Capital Investment Fund of the United States Agency for International Development.", 
+            "bud13": 130000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Foreign Service National Separation Liability Trust Fund", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 2798000, 
+            "name": "Development Assistance Program", 
+            "bud13": 2535000
+          }, 
+          {
+            "size": 58000, 
+            "name": "Transition Initiatives", 
+            "bud13": 58000
+          }
+        ]
+      }, 
+      {
+        "name": "Inter-American Foundation", 
+        "children": [
+          {
+            "size": 18000, 
+            "name": "Inter-American Foundation", 
+            "bud13": 23000
+          }
+        ]
+      }, 
+      {
+        "name": "Trade and Development Agency", 
+        "children": [
+          {
+            "size": 63000, 
+            "name": "Trade and Development Agency", 
+            "bud13": 50000
+          }
+        ]
+      }, 
+      {
+        "name": "Millennium Challenge Corporation", 
+        "children": [
+          {
+            "size": 898000, 
+            "name": "Millennium Challenge Corporation", 
+            "bud13": 904000
+          }
+        ]
+      }, 
+      {
+        "name": "Overseas Private Investment Corporation", 
+        "children": [
+          {
+            "size": 74000, 
+            "name": "Overseas Private Investment Corporation Program Account", 
+            "bud13": 58000
+          }, 
+          {
+            "size": 61000, 
+            "name": "Overseas Private Investment Corporation Noncredit Account", 
+            "bud13": 104000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Veterans Affairs", 
+    "children": [
+      {
+        "name": "Benefits Programs", 
+        "children": [
+          {
+            "size": 184000, 
+            "name": "Burial benefits", 
+            "bud13": 204000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Native American Veteran Housing Loan Program Account", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 13148000, 
+            "name": "Readjustment Benefits", 
+            "bud13": 11199000
+          }, 
+          {
+            "size": 5584000, 
+            "name": "Pensions benefits", 
+            "bud13": 4885000
+          }, 
+          {
+            "size": 65440000, 
+            "name": "Compensation", 
+            "bud13": 56336000
+          }, 
+          {
+            "size": 928000, 
+            "name": "National Service Life Insurance Fund", 
+            "bud13": 981000
+          }, 
+          {
+            "size": 77000, 
+            "name": "Veterans Insurance and Indemnities", 
+            "bud13": 105000
+          }, 
+          {
+            "size": 158000, 
+            "name": "Veterans Housing Benefit Program Fund", 
+            "bud13": 156000
+          }, 
+          {
+            "size": 2000, 
+            "name": "United States Government Life Insurance Fund", 
+            "bud13": 2000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Administration", 
+        "children": [
+          {
+            "size": 3683000, 
+            "name": "Information Technology Systems", 
+            "bud13": 3131000
+          }, 
+          {
+            "size": 715000, 
+            "name": "Construction, Minor Projects", 
+            "bud13": 485000
+          }, 
+          {
+            "size": 250000, 
+            "name": "National Cemetery Administration", 
+            "bud13": 255000
+          }, 
+          {
+            "size": 83000, 
+            "name": "Grants for Construction of State Extended Care Facilities", 
+            "bud13": 86000
+          }, 
+          {
+            "size": 342000, 
+            "name": "Construction, Major Projects", 
+            "bud13": 801000
+          }, 
+          {
+            "size": 2455000, 
+            "name": "General Operating Expenses, Veterans Benefits Administration", 
+            "bud13": 2164000
+          }, 
+          {
+            "size": 45000, 
+            "name": "Grants for Construction of Veterans Cemeteries", 
+            "bud13": 46000
+          }, 
+          {
+            "size": 403000, 
+            "name": "General Administration", 
+            "bud13": 419000
+          }, 
+          {
+            "size": 116000, 
+            "name": "Office of Inspector General", 
+            "bud13": 113000
+          }
+        ]
+      }, 
+      {
+        "name": "Veterans Health Administration", 
+        "children": [
+          {
+            "size": 586000, 
+            "name": "Medical and Prosthetic Research", 
+            "bud13": 585000
+          }, 
+          {
+            "size": 6033000, 
+            "name": "Medical Support and Compliance", 
+            "bud13": 5847000
+          }, 
+          {
+            "size": 28000, 
+            "name": "General Post Fund, National Homes", 
+            "bud13": 27000
+          }, 
+          {
+            "size": 30000, 
+            "name": "DOD-VA Health Care Sharing Incentive Fund", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 4872000, 
+            "name": "Medical Facilities", 
+            "bud13": 5699000
+          }, 
+          {
+            "size": 46764000, 
+            "name": "Medical Services", 
+            "bud13": 45610000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Commerce", 
+    "children": [
+      {
+        "name": "National Telecommunications and Information Administration", 
+        "children": [
+          {
+            "size": 52000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 46000
+          }, 
+          {
+            "size": 10000, 
+            "name": "State and Local Implementation Fund", 
+            "bud13": 125000
+          }, 
+          {
+            "size": 1908000, 
+            "name": "Public Safety Trust Fund", 
+            "bud13": 90000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Management", 
+        "children": [
+          {
+            "size": 60000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 57000
+          }, 
+          {
+            "size": 32000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Gifts and Bequests", 
+            "bud13": 7000
+          }, 
+          {
+            "size": 15000, 
+            "name": "HCHB Renovation and Modernization", 
+            "bud13": 5000
+          }
+        ]
+      }, 
+      {
+        "name": "Economics and Statistics Administration", 
+        "children": [
+          {
+            "size": 104000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 97000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Industry and Security", 
+        "children": [
+          {
+            "size": 32000, 
+            "name": "Operations and Administration", 
+            "bud13": 35000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of the Census", 
+        "children": [
+          {
+            "size": 727000, 
+            "name": "Periodic Censuses and Programs", 
+            "bud13": 655000
+          }, 
+          {
+            "size": 30000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 30000
+          }
+        ]
+      }, 
+      {
+        "name": "International Trade Administration", 
+        "children": [
+          {
+            "size": 520000, 
+            "name": "Operations and Administration", 
+            "bud13": 458000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Grants to Manufacturers of Worsted Wool Fabrics", 
+            "bud13": 5000
+          }
+        ]
+      }, 
+      {
+        "name": "Minority Business Development Agency", 
+        "children": [
+          {
+            "size": 29000, 
+            "name": "Minority Business Development", 
+            "bud13": 31000
+          }
+        ]
+      }, 
+      {
+        "name": "National Oceanic and Atmospheric Administration", 
+        "children": [
+          {
+            "size": 10000, 
+            "name": "Environmental Improvement and Restoration Fund", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 132000, 
+            "name": "Promote and Develop Fishery Products and Research Pertaining to American Fisheries", 
+            "bud13": 132000
+          }, 
+          {
+            "size": 8000, 
+            "name": "Damage Assessment and Restoration Revolving Fund", 
+            "bud13": 8000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Fisheries Enforcement Asset Forfeiture Fund", 
+            "bud13": 5000
+          }, 
+          {
+            "size": 28000, 
+            "name": "Operations, Research, and Facilities", 
+            "bud13": 28000
+          }, 
+          {
+            "size": 50000, 
+            "name": "Pacific Coastal Salmon Recovery", 
+            "bud13": 65000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Limited Access System Administration Fund", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Medicare-eligible Retiree Health Fund Contribution, NOAA", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Sanctuaries Enforcement Asset Forfeiture Fund", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 2118000, 
+            "name": "Procurement, Acquisition and Construction", 
+            "bud13": 2013000
+          }
+        ]
+      }, 
+      {
+        "name": "Economic Development Administration", 
+        "children": [
+          {
+            "size": 39000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 38000
+          }, 
+          {
+            "size": 282000, 
+            "name": "Economic Development Assistance Programs", 
+            "bud13": 221000
+          }
+        ]
+      }, 
+      {
+        "name": "National Institute of Standards and Technology", 
+        "children": [
+          {
+            "size": 60000, 
+            "name": "Construction of Research Facilities", 
+            "bud13": 56000
+          }, 
+          {
+            "size": 698000, 
+            "name": "Scientific and Technical Research and Services", 
+            "bud13": 580000
+          }, 
+          {
+            "size": 174000, 
+            "name": "Industrial Technology Services", 
+            "bud13": 129000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "The Treasury", 
+    "children": [
+      {
+        "name": "Interest on the Public Debt", 
+        "children": [
+          {
+            "size": 7324000, 
+            "name": "Interest Paid to Federal Fund Receipt Accounts - Shadow Account", 
+            "bud13": 7355000
+          }, 
+          {
+            "size": 257360000, 
+            "name": "Interest on Treasury Debt Securities (gross)", 
+            "bud13": 253187000
+          }, 
+          {
+            "size": 3374000, 
+            "name": "Interest Paid to Expenditure Accounts - Shadow Account", 
+            "bud13": 3841000
+          }, 
+          {
+            "size": 149901000, 
+            "name": "Interest Paid to Trust Fund Receipt Accounts - Shadow Account", 
+            "bud13": 156228000
+          }
+        ]
+      }, 
+      {
+        "name": "Internal Revenue Service", 
+        "children": [
+          {
+            "size": 4569000, 
+            "name": "Operations Support", 
+            "bud13": 4129000
+          }, 
+          {
+            "size": 140000, 
+            "name": "Payment Where Small Business Health Insurance Tax Credit Exceeds Liability for Tax", 
+            "bud13": 56000
+          }, 
+          {
+            "size": 24000, 
+            "name": "Payment to Issuer of New Clean Renewable Energy Bonds", 
+            "bud13": 24000
+          }, 
+          {
+            "size": 7449000, 
+            "name": "Payment Where American Opportunity Credit Exceeds Liability for TAX", 
+            "bud13": 7236000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Therapeutic Discovery Program Grants and Administration", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 657000, 
+            "name": "Enforcement", 
+            "bud13": 637000
+          }, 
+          {
+            "size": 262000, 
+            "name": "IRS Miscellaneous Retained Fees", 
+            "bud13": 189000
+          }, 
+          {
+            "size": 25119000, 
+            "name": "Payment Where Child Tax Credit Exceeds Liability for Tax", 
+            "bud13": 23061000
+          }, 
+          {
+            "size": 2412000, 
+            "name": "Taxpayer Services", 
+            "bud13": 2254000
+          }, 
+          {
+            "size": 32000, 
+            "name": "Payment Where Health Coverage Tax Credit Exceeds Liability for Tax", 
+            "bud13": 120000
+          }, 
+          {
+            "size": 32000, 
+            "name": "Payment to Issuer of Qualified Energy Conservation Bonds", 
+            "bud13": 32000
+          }, 
+          {
+            "size": 30000, 
+            "name": "Payment Where Alternative Minimum Tax Credit Exceeds Liability for Tax", 
+            "bud13": 90000
+          }, 
+          {
+            "size": 3345000, 
+            "name": "Refunding Internal Revenue Collections, Interest", 
+            "bud13": 3088000
+          }, 
+          {
+            "size": 301000, 
+            "name": "Business Systems Modernization", 
+            "bud13": 332000
+          }, 
+          {
+            "size": 38000, 
+            "name": "Payment to Issuer of Qualified Zone Academy Bonds", 
+            "bud13": 38000
+          }, 
+          {
+            "size": 125000, 
+            "name": "Informant Payments", 
+            "bud13": 125000
+          }, 
+          {
+            "size": 4334000, 
+            "name": "Build America Bond Payments, Recovery Act", 
+            "bud13": 4334000
+          }, 
+          {
+            "size": 820000, 
+            "name": "Payment to Issuer of Qualified School Construction Bonds", 
+            "bud13": 820000
+          }, 
+          {
+            "size": 55602000, 
+            "name": "Payment Where Earned Income Credit Exceeds Liability for Tax", 
+            "bud13": 55123000
+          }
+        ]
+      }, 
+      {
+        "name": "Financial Crimes Enforcement Network", 
+        "children": [
+          {
+            "size": 104000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 111000
+          }
+        ]
+      }, 
+      {
+        "name": "Fiscal Service", 
+        "children": [
+          {
+            "size": 636000, 
+            "name": "Financial Agent Services", 
+            "bud13": 655000
+          }, 
+          {
+            "size": 13317000, 
+            "name": "Interest Paid to Credit Financing Accounts", 
+            "bud13": 11902000
+          }, 
+          {
+            "size": 320000, 
+            "name": "Gulf Coast Restoration Trust Fund", 
+            "bud13": 320000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Federal Interest Liabilities to States", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Payment of Government Losses in Shipment", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Cheyenne River Sioux Tribe Terrestrial Wildlife Habitat Restoration Trust Fund", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 89000, 
+            "name": "Salaries and Expenses, Fiscal Service", 
+            "bud13": 74000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Check Forgery Insurance Fund", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 2340000, 
+            "name": "Claims, Judgments, and Relief Acts", 
+            "bud13": 4268000
+          }, 
+          {
+            "size": 2628000, 
+            "name": "Payment to the Resolution Funding Corporation", 
+            "bud13": 2628000
+          }, 
+          {
+            "size": 110000, 
+            "name": "Reimbursements to Federal Reserve Banks", 
+            "bud13": 113000
+          }, 
+          {
+            "size": 100000, 
+            "name": "Continued Dumping and Subsidy Offset", 
+            "bud13": 100000
+          }, 
+          {
+            "size": 24000, 
+            "name": "Interest on Uninvested Funds", 
+            "bud13": 24000
+          }, 
+          {
+            "size": 395000, 
+            "name": "Federal Reserve Bank Reimbursement Fund", 
+            "bud13": 331000
+          }
+        ]
+      }, 
+      {
+        "name": "Alcohol and Tobacco Tax and Trade Bureau", 
+        "children": [
+          {
+            "size": 433000, 
+            "name": "Internal Revenue Collections for Puerto Rico", 
+            "bud13": 616000
+          }, 
+          {
+            "size": 101000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 100000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Offices", 
+        "children": [
+          {
+            "size": 10000, 
+            "name": "GSE Mortgage-Backed Securities Purchase Program Account", 
+            "bud13": 548000
+          }, 
+          {
+            "size": 113000, 
+            "name": "Financial Research Fund", 
+            "bud13": 51000
+          }, 
+          {
+            "size": 201000, 
+            "name": "Office of Financial Stability", 
+            "bud13": 306000
+          }, 
+          {
+            "size": 225000, 
+            "name": "Community Development Financial Institutions Fund Program Account", 
+            "bud13": 222000
+          }, 
+          {
+            "size": 253000, 
+            "name": "Terrorism Insurance Program", 
+            "bud13": 108000
+          }, 
+          {
+            "size": 312000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 310000
+          }, 
+          {
+            "size": 35000, 
+            "name": "Special Inspector General for the Troubled Asset Relief Program", 
+            "bud13": 42000
+          }, 
+          {
+            "size": 20000, 
+            "name": "Small Business Lending Fund Program Account", 
+            "bud13": 58000
+          }, 
+          {
+            "size": 4710000, 
+            "name": "Grants for Specified Energy Property in Lieu of Tax Credits, Recovery Act", 
+            "bud13": 8080000
+          }, 
+          {
+            "size": 1544000, 
+            "name": "Treasury Forfeiture Fund", 
+            "bud13": 2833000
+          }, 
+          {
+            "size": 150000, 
+            "name": "Treasury Inspector General for Tax Administration", 
+            "bud13": 153000
+          }, 
+          {
+            "size": 31000, 
+            "name": "Office of Inspector General", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 33000, 
+            "name": "Presidential Election Campaign Fund", 
+            "bud13": 35000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Education", 
+    "children": [
+      {
+        "name": "Office of Vocational and Adult Education", 
+        "children": [
+          {
+            "size": 1750000, 
+            "name": "Career, Technical and Adult Education", 
+            "bud13": 1743000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Management", 
+        "children": [
+          {
+            "size": 463000, 
+            "name": "Program Administration", 
+            "bud13": 449000
+          }, 
+          {
+            "size": 62000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 60000
+          }, 
+          {
+            "size": 108000, 
+            "name": "Office for Civil Rights", 
+            "bud13": 104000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Special Education and Rehabilitative Services", 
+        "children": [
+          {
+            "size": 11816000, 
+            "name": "Special Education", 
+            "bud13": 12661000
+          }, 
+          {
+            "size": 65000, 
+            "name": "National Technical Institute for the Deaf", 
+            "bud13": 66000
+          }, 
+          {
+            "size": 353000, 
+            "name": "Rehabilitation Services and Disability Research", 
+            "bud13": 391000
+          }, 
+          {
+            "size": 25000, 
+            "name": "American Printing House for the Blind", 
+            "bud13": 25000
+          }, 
+          {
+            "size": 118000, 
+            "name": "Gallaudet University", 
+            "bud13": 126000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Innovation and Improvement", 
+        "children": [
+          {
+            "size": 5335000, 
+            "name": "Innovation and Instructional Teams", 
+            "bud13": 1537000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Postsecondary Education", 
+        "children": [
+          {
+            "size": 428000, 
+            "name": "Higher Education", 
+            "bud13": 428000
+          }, 
+          {
+            "size": 21000, 
+            "name": "College Housing and Academic Facilities Loans Program Account", 
+            "bud13": 21000
+          }, 
+          {
+            "size": 234000, 
+            "name": "Howard University", 
+            "bud13": 235000
+          }
+        ]
+      }, 
+      {
+        "name": "Institute of Education Sciences", 
+        "children": [
+          {
+            "size": 671000, 
+            "name": "Institute of Education Sciences", 
+            "bud13": 598000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of English Language Acquisition", 
+        "children": [
+          {
+            "size": 732000, 
+            "name": "English Learner Education", 
+            "bud13": 737000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Elementary and Secondary Education", 
+        "children": [
+          {
+            "size": 14843000, 
+            "name": "Accelerating Achievement and Ensuring Equity", 
+            "bud13": 15772000
+          }, 
+          {
+            "size": 1832000, 
+            "name": "Supporting Student Success", 
+            "bud13": 258000
+          }, 
+          {
+            "size": 1224000, 
+            "name": "Impact Aid", 
+            "bud13": 1299000
+          }, 
+          {
+            "size": 2757000, 
+            "name": "Education Improvement Programs", 
+            "bud13": 4562000
+          }, 
+          {
+            "size": 131000, 
+            "name": "Indian Student Education", 
+            "bud13": 132000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Federal Student Aid", 
+        "children": [
+          {
+            "size": 191000, 
+            "name": "Teacher Education Assistance", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 9000, 
+            "name": "Student Financial Assistance Debt Collection", 
+            "bud13": 9000
+          }, 
+          {
+            "size": 7044000, 
+            "name": "Student Financial Assistance", 
+            "bud13": 12441000
+          }, 
+          {
+            "size": 2871000, 
+            "name": "Federal Direct Student Loan Program Account", 
+            "bud13": 3274000
+          }, 
+          {
+            "size": 434000, 
+            "name": "Student Aid Administration", 
+            "bud13": 386000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "The Interior", 
+    "children": [
+      {
+        "name": "United States Geological Survey", 
+        "children": [
+          {
+            "size": 1000, 
+            "name": "Contributed Funds", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 1167000, 
+            "name": "Surveys, Investigations, and Research", 
+            "bud13": 1075000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Surface Mining Reclamation and Enforcement", 
+        "children": [
+          {
+            "size": 180000, 
+            "name": "Supplemental Payments to UMWA Health Plans", 
+            "bud13": 141000
+          }, 
+          {
+            "size": 115000, 
+            "name": "Regulation and Technology", 
+            "bud13": 124000
+          }, 
+          {
+            "size": 15000, 
+            "name": "Abandoned Mine Reclamation Fund", 
+            "bud13": 55000
+          }, 
+          {
+            "size": 85000, 
+            "name": "Payments to States in Lieu of Coal Fee Receipts", 
+            "bud13": 85000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Fish and Wildlife Service", 
+        "children": [
+          {
+            "size": 8000, 
+            "name": "National Wildlife Refuge Fund", 
+            "bud13": 8000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Recreation Enhancement Fee Program, FWS", 
+            "bud13": 5000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Multinational Species Conservation Fund", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 421000, 
+            "name": "Sport Fish Restoration", 
+            "bud13": 462000
+          }, 
+          {
+            "size": 4000, 
+            "name": "Miscellaneous Permanent Appropriations", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 56000, 
+            "name": "Cooperative Endangered Species Conservation Fund", 
+            "bud13": 48000
+          }, 
+          {
+            "size": 66000, 
+            "name": "Migratory Bird Conservation Account", 
+            "bud13": 52000
+          }, 
+          {
+            "size": 1295000, 
+            "name": "Resource Management", 
+            "bud13": 1234000
+          }, 
+          {
+            "size": 16000, 
+            "name": "Construction", 
+            "bud13": 91000
+          }, 
+          {
+            "size": 61000, 
+            "name": "State Wildlife Grants", 
+            "bud13": 62000
+          }, 
+          {
+            "size": 71000, 
+            "name": "Land Acquisition", 
+            "bud13": 55000
+          }, 
+          {
+            "size": 4000, 
+            "name": "Neotropical Migratory Bird Conservation", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 611000, 
+            "name": "Federal Aid in Wildlife Restoration", 
+            "bud13": 571000
+          }, 
+          {
+            "size": 1000, 
+            "name": "North American Wetlands Conservation Fund", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Contributed Funds", 
+            "bud13": 3000
+          }
+        ]
+      }, 
+      {
+        "name": "Insular Affairs", 
+        "children": [
+          {
+            "size": 315000, 
+            "name": "Payments to the United States Territories, Fiscal Assistance", 
+            "bud13": 340000
+          }, 
+          {
+            "size": 28000, 
+            "name": "Assistance to Territories", 
+            "bud13": 28000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Compact of Free Association", 
+            "bud13": 16000
+          }
+        ]
+      }, 
+      {
+        "name": "National Indian Gaming Commission", 
+        "children": [
+          {
+            "size": 19000, 
+            "name": "National Indian Gaming Commission, Gaming Activity Fees", 
+            "bud13": 19000
+          }
+        ]
+      }, 
+      {
+        "name": "Central Utah Project", 
+        "children": [
+          {
+            "size": 1000, 
+            "name": "Utah Reclamation Mitigation and Conservation Account", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Central Utah Project Completion Account", 
+            "bud13": 27000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of the Solicitor", 
+        "children": [
+          {
+            "size": 66000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 67000
+          }
+        ]
+      }, 
+      {
+        "name": "Department-Wide Programs", 
+        "children": [
+          {
+            "size": 13000, 
+            "name": "Natural Resource Damage Assessment Fund", 
+            "bud13": 6000
+          }, 
+          {
+            "size": 777000, 
+            "name": "Wildland Fire Management", 
+            "bud13": 826000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Central Hazardous Materials Fund", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 62000, 
+            "name": "Working Capital Fund", 
+            "bud13": 62000
+          }, 
+          {
+            "size": 410000, 
+            "name": "Payments in Lieu of Taxes", 
+            "bud13": 401000
+          }
+        ]
+      }, 
+      {
+        "name": "National Park Service", 
+        "children": [
+          {
+            "size": 196000, 
+            "name": "Recreation Fee Permanent Appropriations", 
+            "bud13": 195000
+          }, 
+          {
+            "size": 2285000, 
+            "name": "Operation of the National Park System", 
+            "bud13": 2250000
+          }, 
+          {
+            "size": 160000, 
+            "name": "Construction (and Major Maintenance)", 
+            "bud13": 520000
+          }, 
+          {
+            "size": 168000, 
+            "name": "Other Permanent Appropriations", 
+            "bud13": 165000
+          }, 
+          {
+            "size": 70000, 
+            "name": "Land Acquisition and State Assistance", 
+            "bud13": 73000
+          }, 
+          {
+            "size": 59000, 
+            "name": "Historic Preservation Fund", 
+            "bud13": 106000
+          }, 
+          {
+            "size": 30000, 
+            "name": "Miscellaneous Trust Funds", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 52000, 
+            "name": "National Recreation and Preservation", 
+            "bud13": 60000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Safety and Environmental Enforcement", 
+        "children": [
+          {
+            "size": 83000, 
+            "name": "Offshore Safety and Environmental Enforcement", 
+            "bud13": 124000
+          }, 
+          {
+            "size": 15000, 
+            "name": "Oil Spill Research", 
+            "bud13": 15000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Ocean Energy Management", 
+        "children": [
+          {
+            "size": 71000, 
+            "name": "Ocean Energy Management", 
+            "bud13": -2000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Land Management", 
+        "children": [
+          {
+            "size": 116000, 
+            "name": "Oregon and California Grant Lands", 
+            "bud13": 113000
+          }, 
+          {
+            "size": 980000, 
+            "name": "Management of Lands and Resources", 
+            "bud13": 966000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Miscellaneous Permanent Payment Accounts", 
+            "bud13": 46000
+          }, 
+          {
+            "size": 32000, 
+            "name": "Service Charges, Deposits, and Forfeitures", 
+            "bud13": 32000
+          }, 
+          {
+            "size": 33000, 
+            "name": "Land Acquisition", 
+            "bud13": 22000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Miscellaneous Trust Funds", 
+            "bud13": 25000
+          }, 
+          {
+            "size": 61000, 
+            "name": "Permanent Operating Funds", 
+            "bud13": 65000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Range Improvements", 
+            "bud13": 10000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Offices", 
+        "children": [
+          {
+            "size": 27000, 
+            "name": "Leases of Lands Acquired for Flood Control, Navigation, and Allied Purposes", 
+            "bud13": 26000
+          }, 
+          {
+            "size": 269000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 624000
+          }, 
+          {
+            "size": 2142000, 
+            "name": "Mineral Leasing and Associated Payments", 
+            "bud13": 2057000
+          }, 
+          {
+            "size": 8000, 
+            "name": "National Forests Fund, Payment to States", 
+            "bud13": 8000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Reclamation", 
+        "children": [
+          {
+            "size": 53000, 
+            "name": "Central Valley Project Restoration Fund", 
+            "bud13": 53000
+          }, 
+          {
+            "size": 8000, 
+            "name": "Lower Colorado River Basin Development Fund", 
+            "bud13": 6000
+          }, 
+          {
+            "size": 60000, 
+            "name": "Policy and Administration", 
+            "bud13": 60000
+          }, 
+          {
+            "size": 60000, 
+            "name": "Reclamation Water Settlements Fund", 
+            "bud13": 60000
+          }, 
+          {
+            "size": 111000, 
+            "name": "Colorado River Dam Fund, Boulder Canyon Project", 
+            "bud13": 112000
+          }, 
+          {
+            "size": 37000, 
+            "name": "California Bay-Delta Restoration", 
+            "bud13": 40000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Reclamation Trust Funds", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Water and Related Resources", 
+            "bud13": 1000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of the Special Trustee for American Indians", 
+        "children": [
+          {
+            "size": 324000, 
+            "name": "Tribal Special Fund", 
+            "bud13": 313000
+          }, 
+          {
+            "size": 140000, 
+            "name": "Federal Trust Programs", 
+            "bud13": 153000
+          }, 
+          {
+            "size": 104000, 
+            "name": "Tribal Trust Fund", 
+            "bud13": 100000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Indian Affairs and Bureau of Indian Education", 
+        "children": [
+          {
+            "size": 3000, 
+            "name": "White Earth Settlement Fund", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 6000, 
+            "name": "Operation and Maintenance of Quarters", 
+            "bud13": 6000
+          }, 
+          {
+            "size": 36000, 
+            "name": "Indian Land and Water Claim Settlements and Miscellaneous Payments to Indians", 
+            "bud13": 33000
+          }, 
+          {
+            "size": 100000, 
+            "name": "Miscellaneous Permanent Appropriations", 
+            "bud13": 100000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Indian Guaranteed Loan Program Account", 
+            "bud13": 7000
+          }, 
+          {
+            "size": 160000, 
+            "name": "Operation of Indian Programs", 
+            "bud13": 179000
+          }, 
+          {
+            "size": 107000, 
+            "name": "Construction", 
+            "bud13": 124000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Inspector General", 
+        "children": [
+          {
+            "size": 51000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 50000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Labor", 
+    "children": [
+      {
+        "name": "Departmental Management", 
+        "children": [
+          {
+            "size": 21000, 
+            "name": "Information Technology Modernization", 
+            "bud13": 20000
+          }, 
+          {
+            "size": 348000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 348000
+          }, 
+          {
+            "size": 80000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 78000
+          }, 
+          {
+            "size": 38000, 
+            "name": "Veterans Employment and Training", 
+            "bud13": 53000
+          }, 
+          {
+            "size": 42000, 
+            "name": "Office of Disability Employment Policy", 
+            "bud13": 39000
+          }
+        ]
+      }, 
+      {
+        "name": "Wage and Hour Division", 
+        "children": [
+          {
+            "size": 243000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 229000
+          }, 
+          {
+            "size": 35000, 
+            "name": "H-1 B and L Fraud Prevention and Detection", 
+            "bud13": 35000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Federal Contract Compliance Programs", 
+        "children": [
+          {
+            "size": 108000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 106000
+          }
+        ]
+      }, 
+      {
+        "name": "Employee Benefits Security Administration", 
+        "children": [
+          {
+            "size": 180000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 184000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Labor Statistics", 
+        "children": [
+          {
+            "size": 547000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 545000
+          }
+        ]
+      }, 
+      {
+        "name": "Mine Safety and Health Administration", 
+        "children": [
+          {
+            "size": 381000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 376000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Workers' Compensation Programs", 
+        "children": [
+          {
+            "size": 133000, 
+            "name": "Special Benefits for Disabled Coal Miners", 
+            "bud13": 163000
+          }, 
+          {
+            "size": 316000, 
+            "name": "Black Lung Disability Trust Fund", 
+            "bud13": 304000
+          }, 
+          {
+            "size": 129000, 
+            "name": "Administrative Expenses, Energy Employees Occupational Illness Compensation Fund", 
+            "bud13": 129000
+          }, 
+          {
+            "size": 120000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 116000
+          }, 
+          {
+            "size": 1174000, 
+            "name": "Energy Employees Occupational Illness Compensation Fund", 
+            "bud13": 1212000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Special Workers' Compensation Expenses", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Special Benefits", 
+            "bud13": 3000
+          }
+        ]
+      }, 
+      {
+        "name": "Labor", 
+        "children": [
+          {
+            "size": 2000, 
+            "name": "All Other General Fund Proprietary Receipts Including Budget Clearing Accounts", 
+            "bud13": 1000
+          }
+        ]
+      }, 
+      {
+        "name": "Employment and Training Administration", 
+        "children": [
+          {
+            "size": 196000, 
+            "name": "Federal Unemployment Benefits and Allowances", 
+            "bud13": 575000
+          }, 
+          {
+            "size": 215000, 
+            "name": "Short Time Compensation Programs", 
+            "bud13": 182000
+          }, 
+          {
+            "size": 1692000, 
+            "name": "Office of Job Corps", 
+            "bud13": 1713000
+          }, 
+          {
+            "size": 99000, 
+            "name": "Program Administration", 
+            "bud13": 98000
+          }, 
+          {
+            "size": 500000, 
+            "name": "TAA Community College and Career Training Grant Fund", 
+            "bud13": 500000
+          }, 
+          {
+            "size": 13000, 
+            "name": "State Unemployment Insurance and Employment Service Operations", 
+            "bud13": 13000
+          }, 
+          {
+            "size": 7157000, 
+            "name": "Payments to the Unemployment Trust Fund", 
+            "bud13": 30767000
+          }, 
+          {
+            "size": 1176000, 
+            "name": "Unemployment Trust Fund", 
+            "bud13": 1100000
+          }, 
+          {
+            "size": 125000, 
+            "name": "Training and Employment Services", 
+            "bud13": 125000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Labor Management Standards", 
+        "children": [
+          {
+            "size": 47000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 42000
+          }
+        ]
+      }, 
+      {
+        "name": "Occupational Safety and Health Administration", 
+        "children": [
+          {
+            "size": 571000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 569000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Federal Communications Commission", 
+    "children": [
+      {
+        "name": "Federal Communications Commission", 
+        "children": [
+          {
+            "size": 9857000, 
+            "name": "Universal Service Fund", 
+            "bud13": 10127000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Spectrum Auction Program Account", 
+            "bud13": 4000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Homeland Security", 
+    "children": [
+      {
+        "name": "Office of the Inspector General", 
+        "children": [
+          {
+            "size": 143000, 
+            "name": "Operating Expenses", 
+            "bud13": 145000
+          }
+        ]
+      }, 
+      {
+        "name": "National Protection and Programs Directorate", 
+        "children": [
+          {
+            "size": 1202000, 
+            "name": "Infrastructure Protection and Information Security", 
+            "bud13": 1170000
+          }, 
+          {
+            "size": 65000, 
+            "name": "National Protection and Programs Directorate", 
+            "bud13": 51000
+          }, 
+          {
+            "size": 132000, 
+            "name": "Office of Health Affairs", 
+            "bud13": 168000
+          }
+        ]
+      }, 
+      {
+        "name": "Domestic Nuclear Detection Office", 
+        "children": [
+          {
+            "size": 42000, 
+            "name": "Systems Acquisition", 
+            "bud13": 41000
+          }, 
+          {
+            "size": 211000, 
+            "name": "Research, Development, and Operations", 
+            "bud13": 216000
+          }, 
+          {
+            "size": 38000, 
+            "name": "Management and Administration", 
+            "bud13": 38000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Management and Operations", 
+        "children": [
+          {
+            "size": 327000, 
+            "name": "Office of the Chief Information Officer", 
+            "bud13": 324000
+          }, 
+          {
+            "size": 309000, 
+            "name": "Analysis and Operations", 
+            "bud13": 340000
+          }, 
+          {
+            "size": 484000, 
+            "name": "Departmental Operations", 
+            "bud13": 478000
+          }
+        ]
+      }, 
+      {
+        "name": "Customs and Border Protection", 
+        "children": [
+          {
+            "size": 4000, 
+            "name": "US Customs Refunds, Transfers and Expenses, Unclaimed and Abandoned Goods", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 428000, 
+            "name": "Air and Marine Interdiction, Operations, Maintenance, and Procurement", 
+            "bud13": 507000
+          }, 
+          {
+            "size": 340000, 
+            "name": "Automation Modernization, Customs and Border Protection", 
+            "bud13": 331000
+          }, 
+          {
+            "size": 35000, 
+            "name": "International Registered Traveler", 
+            "bud13": 34000
+          }, 
+          {
+            "size": 1498000, 
+            "name": "Customs and Border Protection", 
+            "bud13": 1451000
+          }, 
+          {
+            "size": 15000, 
+            "name": "Payments to Wool Manufacturers", 
+            "bud13": 15000
+          }, 
+          {
+            "size": 55000, 
+            "name": "Electronic System for Travel Authorization", 
+            "bud13": 54000
+          }, 
+          {
+            "size": 471000, 
+            "name": "Construction, Customs and Border Protection", 
+            "bud13": 238000
+          }, 
+          {
+            "size": 351000, 
+            "name": "Border Security Fencing, Infrastructure, and Technology", 
+            "bud13": 399000
+          }, 
+          {
+            "size": 99000, 
+            "name": "Refunds, Transfers, and Expenses of Operation, Puerto Rico", 
+            "bud13": 103000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Coast Guard", 
+        "children": [
+          {
+            "size": 110000, 
+            "name": "Reserve Training", 
+            "bud13": 135000
+          }, 
+          {
+            "size": 239000, 
+            "name": "Maritime Oil Spill Programs", 
+            "bud13": 289000
+          }, 
+          {
+            "size": 13000, 
+            "name": "Environmental Compliance and Restoration", 
+            "bud13": 14000
+          }, 
+          {
+            "size": 109000, 
+            "name": "Boat Safety", 
+            "bud13": 121000
+          }, 
+          {
+            "size": 1452000, 
+            "name": "Retired Pay", 
+            "bud13": 1440000
+          }, 
+          {
+            "size": 45000, 
+            "name": "Trust Fund Share of Expenses", 
+            "bud13": 45000
+          }, 
+          {
+            "size": 340000, 
+            "name": "Operating Expenses", 
+            "bud13": 597000
+          }, 
+          {
+            "size": 889000, 
+            "name": "Acquisition, Construction, and Improvements", 
+            "bud13": 1727000
+          }, 
+          {
+            "size": 187000, 
+            "name": "Medicare-eligible Retiree Health Fund Contribution, Homeland Security", 
+            "bud13": 202000
+          }, 
+          {
+            "size": 20000, 
+            "name": "Research, Development, Test, and Evaluation", 
+            "bud13": 28000
+          }
+        ]
+      }, 
+      {
+        "name": "Transportation Security Administration", 
+        "children": [
+          {
+            "size": 827000, 
+            "name": "Federal Air Marshals", 
+            "bud13": 972000
+          }, 
+          {
+            "size": 181000, 
+            "name": "Transportation Threat Assessment and Credentialing", 
+            "bud13": 165000
+          }, 
+          {
+            "size": 250000, 
+            "name": "Aviation Security", 
+            "bud13": 250000
+          }, 
+          {
+            "size": 109000, 
+            "name": "Surface Transportation Security", 
+            "bud13": 136000
+          }, 
+          {
+            "size": 998000, 
+            "name": "Transportation Security Support", 
+            "bud13": 1038000
+          }
+        ]
+      }, 
+      {
+        "name": "Science and Technology", 
+        "children": [
+          {
+            "size": 1527000, 
+            "name": "Research, Development, Acquisitions and Operations", 
+            "bud13": 675000
+          }
+        ]
+      }, 
+      {
+        "name": "Immigration and Customs Enforcement", 
+        "children": [
+          {
+            "size": 345000, 
+            "name": "Immigration and Customs Enforcement", 
+            "bud13": 312000
+          }, 
+          {
+            "size": 35000, 
+            "name": "Automation Modernization, Immigration and Customs Enforcement", 
+            "bud13": 12000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Emergency Management Agency", 
+        "children": [
+          {
+            "size": 1000000, 
+            "name": "National Flood Insurance Fund", 
+            "bud13": 11725000
+          }, 
+          {
+            "size": 77000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 57000
+          }, 
+          {
+            "size": 100000, 
+            "name": "Emergency Food and Shelter", 
+            "bud13": 121000
+          }, 
+          {
+            "size": 41000, 
+            "name": "United States Fire Administration and Training", 
+            "bud13": 44000
+          }, 
+          {
+            "size": 6197000, 
+            "name": "Disaster Relief Fund", 
+            "bud13": 18565000
+          }, 
+          {
+            "size": 2123000, 
+            "name": "State and Local Programs", 
+            "bud13": 2301000
+          }, 
+          {
+            "size": 84000, 
+            "name": "Flood Hazard Mapping and Risk Analysis Program", 
+            "bud13": 99000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Law Enforcement Training Center", 
+        "children": [
+          {
+            "size": 241000, 
+            "name": "Salaries and expenses", 
+            "bud13": 240000
+          }, 
+          {
+            "size": 31000, 
+            "name": "Acquisitions, Construction, Improvements and Related Expenses", 
+            "bud13": 33000
+          }
+        ]
+      }, 
+      {
+        "name": "Citizenship and Immigration Services", 
+        "children": [
+          {
+            "size": 120000, 
+            "name": "Citizenship and Immigration Services", 
+            "bud13": 99000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Secret Service", 
+        "children": [
+          {
+            "size": 255000, 
+            "name": "Contribution for Annuity Benefits, United States Secret Service", 
+            "bud13": 250000
+          }, 
+          {
+            "size": 1495000, 
+            "name": "Operating Expenses", 
+            "bud13": 1670000
+          }, 
+          {
+            "size": 52000, 
+            "name": "Acquisition, Construction, and Improvements", 
+            "bud13": 5000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "National Science Foundation", 
+    "children": [
+      {
+        "name": "National Science Foundation", 
+        "children": [
+          {
+            "size": 14000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 14000
+          }, 
+          {
+            "size": 304000, 
+            "name": "Agency Operations and Award Management", 
+            "bud13": 301000
+          }, 
+          {
+            "size": 210000, 
+            "name": "Major Research Equipment and Facilities Construction", 
+            "bud13": 168000
+          }, 
+          {
+            "size": 4000, 
+            "name": "Office of the National Science Board", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Donations", 
+            "bud13": 25000
+          }, 
+          {
+            "size": 68000, 
+            "name": "Research and Related Activities", 
+            "bud13": 68000
+          }, 
+          {
+            "size": 100000, 
+            "name": "Education and Human Resources", 
+            "bud13": 100000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "State", 
+    "children": [
+      {
+        "name": "Other", 
+        "children": [
+          {
+            "size": 6000, 
+            "name": "International Center, Washington, D.C.", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 1000, 
+            "name": "International Litigation Fund", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 11000, 
+            "name": "East-West Center", 
+            "bud13": 17000
+          }, 
+          {
+            "size": 103000, 
+            "name": "National Endowment for Democracy", 
+            "bud13": 118000
+          }, 
+          {
+            "size": 8315000, 
+            "name": "Global Health Programs", 
+            "bud13": 8218000
+          }, 
+          {
+            "size": 17000, 
+            "name": "Payment to the Asia Foundation", 
+            "bud13": 17000
+          }, 
+          {
+            "size": 1761000, 
+            "name": "Migration and Refugee Assistance", 
+            "bud13": 1885000
+          }, 
+          {
+            "size": 1474000, 
+            "name": "International Narcotics Control and Law Enforcement", 
+            "bud13": 2051000
+          }, 
+          {
+            "size": 250000, 
+            "name": "United States Emergency Refugee and Migration Assistance Fund", 
+            "bud13": 27000
+          }, 
+          {
+            "size": 40000, 
+            "name": "Complex Crises Fund", 
+            "bud13": 40000
+          }
+        ]
+      }, 
+      {
+        "name": "International Organizations and Conferences", 
+        "children": [
+          {
+            "size": 2095000, 
+            "name": "Contributions for International Peacekeeping Activities", 
+            "bud13": 1839000
+          }, 
+          {
+            "size": 1573000, 
+            "name": "Contributions to International Organizations", 
+            "bud13": 1560000
+          }
+        ]
+      }, 
+      {
+        "name": "Administration of Foreign Affairs", 
+        "children": [
+          {
+            "size": 10000, 
+            "name": "Emergencies in the Diplomatic and Consular Service", 
+            "bud13": 9000
+          }, 
+          {
+            "size": 28000, 
+            "name": "Protection of Foreign Missions and Officials", 
+            "bud13": 27000
+          }, 
+          {
+            "size": 119000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 129000
+          }, 
+          {
+            "size": 300000, 
+            "name": "Payment to Foreign Service Retirement and Disability Fund", 
+            "bud13": 300000
+          }, 
+          {
+            "size": 8000, 
+            "name": "Representation Allowances", 
+            "bud13": 7000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Repatriation Loans Program Account", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Miscellaneous Trust Funds", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 563000, 
+            "name": "Educational and Cultural Exchange Programs", 
+            "bud13": 603000
+          }, 
+          {
+            "size": 77000, 
+            "name": "Capital Investment Fund", 
+            "bud13": 60000
+          }, 
+          {
+            "size": 915000, 
+            "name": "Foreign Service Retirement and Disability Fund", 
+            "bud13": 893000
+          }, 
+          {
+            "size": 2649000, 
+            "name": "Embassy Security, Construction, and Maintenance", 
+            "bud13": 1579000
+          }, 
+          {
+            "size": 36000, 
+            "name": "Payment to the American Institute in Taiwan", 
+            "bud13": 21000
+          }, 
+          {
+            "size": 15000, 
+            "name": "Foreign Service National Separation Liability Trust Fund", 
+            "bud13": 14000
+          }, 
+          {
+            "size": 41000, 
+            "name": "Diplomatic and Consular Programs", 
+            "bud13": 40000
+          }, 
+          {
+            "size": 45000, 
+            "name": "Conflict Stabilization Operations", 
+            "bud13": 8000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Foreign Service National Defined Contributions Retirement Fund", 
+            "bud13": 1000
+          }
+        ]
+      }, 
+      {
+        "name": "International Commissions", 
+        "children": [
+          {
+            "size": 12000, 
+            "name": "American Sections, International Commissions", 
+            "bud13": 12000
+          }, 
+          {
+            "size": 31000, 
+            "name": "Construction, IBWC", 
+            "bud13": 32000
+          }, 
+          {
+            "size": 46000, 
+            "name": "Salaries and Expenses, IBWC", 
+            "bud13": 45000
+          }, 
+          {
+            "size": 31000, 
+            "name": "International Fisheries Commissions", 
+            "bud13": 37000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Housing and Urban Development", 
+    "children": [
+      {
+        "name": "Government National Mortgage Association", 
+        "children": [
+          {
+            "size": 542000, 
+            "name": "Guarantees of Mortgage-backed Securities Capital Reserve Account", 
+            "bud13": 6663000
+          }
+        ]
+      }, 
+      {
+        "name": "Public and Indian Housing Programs", 
+        "children": [
+          {
+            "size": 10278000, 
+            "name": "Project-based Rental Assistance", 
+            "bud13": 9395000
+          }, 
+          {
+            "size": 19996000, 
+            "name": "Tenant Based Rental Assistance", 
+            "bud13": 19006000
+          }, 
+          {
+            "size": 647000, 
+            "name": "Native American Housing Block Grant", 
+            "bud13": 654000
+          }, 
+          {
+            "size": 398000, 
+            "name": "Choice Neighborhoods", 
+            "bud13": 121000
+          }, 
+          {
+            "size": 13000, 
+            "name": "Native Hawaiian Housing Block Grant", 
+            "bud13": 13000
+          }, 
+          {
+            "size": 4560000, 
+            "name": "Public Housing Operating Fund", 
+            "bud13": 3986000
+          }, 
+          {
+            "size": 6000, 
+            "name": "Indian Housing Loan Guarantee Fund Program Account", 
+            "bud13": 6000
+          }, 
+          {
+            "size": 1979000, 
+            "name": "Public Housing Capital Fund", 
+            "bud13": 1886000
+          }
+        ]
+      }, 
+      {
+        "name": "Housing Programs", 
+        "children": [
+          {
+            "size": 1000, 
+            "name": "Payment to Manufactured Housing Fees Trust Fund", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 12951000, 
+            "name": "FHA-mutual Mortgage Insurance Capital Reserve Account", 
+            "bud13": -5255000
+          }, 
+          {
+            "size": 6000, 
+            "name": "FHA-general and Special Risk Insurance Funds Liquidating Account", 
+            "bud13": -27000
+          }, 
+          {
+            "size": 126000, 
+            "name": "FHA-mutual Mortgage Insurance Program Account", 
+            "bud13": 208000
+          }, 
+          {
+            "size": 17000, 
+            "name": "Other Assisted Housing Programs", 
+            "bud13": -22000
+          }, 
+          {
+            "size": 125000, 
+            "name": "Housing for Persons with Disabilities", 
+            "bud13": 166000
+          }, 
+          {
+            "size": 8000, 
+            "name": "Manufactured Housing Fees Trust Fund", 
+            "bud13": 6000
+          }, 
+          {
+            "size": 398000, 
+            "name": "Housing for the Elderly", 
+            "bud13": 377000
+          }, 
+          {
+            "size": 55000, 
+            "name": "Housing Counseling Assistance", 
+            "bud13": 45000
+          }
+        ]
+      }, 
+      {
+        "name": "Community Planning and Development", 
+        "children": [
+          {
+            "size": 1000, 
+            "name": "Revolving Fund (liquidating Programs)", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 945000, 
+            "name": "Home Investment Partnership Program", 
+            "bud13": 1006000
+          }, 
+          {
+            "size": 3128000, 
+            "name": "Community Development Fund", 
+            "bud13": 19308000
+          }, 
+          {
+            "size": 2381000, 
+            "name": "Homeless Assistance Grants", 
+            "bud13": 1913000
+          }, 
+          {
+            "size": 330000, 
+            "name": "Housing Opportunities for Persons with AIDS", 
+            "bud13": 334000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Lead Hazard Control and Healthy Homes", 
+        "children": [
+          {
+            "size": 119000, 
+            "name": "Lead Hazard Reduction", 
+            "bud13": 121000
+          }
+        ]
+      }, 
+      {
+        "name": "Policy Development and Research", 
+        "children": [
+          {
+            "size": 50000, 
+            "name": "Research and Technology", 
+            "bud13": 46000
+          }
+        ]
+      }, 
+      {
+        "name": "Management and Administration", 
+        "children": [
+          {
+            "size": 383000, 
+            "name": "Housing Personnel Compensation and Benefits", 
+            "bud13": 394000
+          }, 
+          {
+            "size": 285000, 
+            "name": "Information Technology Portfolio", 
+            "bud13": 200000
+          }, 
+          {
+            "size": 505000, 
+            "name": "Administrative Support Offices", 
+            "bud13": 541000
+          }, 
+          {
+            "size": 220000, 
+            "name": "Public and Indian Housing Personnel Compensation and Benefits", 
+            "bud13": 201000
+          }, 
+          {
+            "size": 22000, 
+            "name": "Policy Development and Research Personnel Compensation and Benefits", 
+            "bud13": 22000
+          }, 
+          {
+            "size": 80000, 
+            "name": "Transformation Initiative", 
+            "bud13": 50000
+          }, 
+          {
+            "size": 77000, 
+            "name": "Fair Housing and Equal Opportunity Personnel Compensation and Benefits", 
+            "bud13": 73000
+          }, 
+          {
+            "size": 128000, 
+            "name": "Office of Inspector General", 
+            "bud13": 135000
+          }, 
+          {
+            "size": 8000, 
+            "name": "Office of Healthy Homes and Lead Hazard Control Personnel Compensation and Benefits", 
+            "bud13": 7000
+          }, 
+          {
+            "size": 110000, 
+            "name": "Community Planning and Development Personnel Compensation and Benefits", 
+            "bud13": 111000
+          }
+        ]
+      }, 
+      {
+        "name": "Fair Housing and Equal Opportunity", 
+        "children": [
+          {
+            "size": 71000, 
+            "name": "Fair Housing Activities", 
+            "bud13": 71000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Justice", 
+    "children": [
+      {
+        "name": "Legal Activities and U.S. Marshals", 
+        "children": [
+          {
+            "size": 58000, 
+            "name": "Salaries and Expenses, Antitrust Division", 
+            "bud13": 43000
+          }, 
+          {
+            "size": 270000, 
+            "name": "Fees and Expenses of Witnesses", 
+            "bud13": 270000
+          }, 
+          {
+            "size": 2163000, 
+            "name": "Assets Forfeiture Fund", 
+            "bud13": 2162000
+          }, 
+          {
+            "size": 12000, 
+            "name": "Salaries and Expenses, Community Relations Service", 
+            "bud13": 11000
+          }, 
+          {
+            "size": 903000, 
+            "name": "Salaries and Expenses, General Legal Activities", 
+            "bud13": 868000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Construction", 
+            "bud13": 15000
+          }, 
+          {
+            "size": 200000, 
+            "name": "September 11th Victim Compensation (general Fund)", 
+            "bud13": 322000
+          }, 
+          {
+            "size": 226000, 
+            "name": "United States Trustee System Fund", 
+            "bud13": 225000
+          }, 
+          {
+            "size": 1192000, 
+            "name": "Salaries and Expenses, United States Marshals Service", 
+            "bud13": 1179000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Salaries and Expenses, Foreign Claims Settlement Commission", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 2008000, 
+            "name": "Salaries and Expenses, United States Attorneys", 
+            "bud13": 1972000
+          }
+        ]
+      }, 
+      {
+        "name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives", 
+        "children": [
+          {
+            "size": 1217000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 1159000
+          }
+        ]
+      }, 
+      {
+        "name": "Radiation Exposure Compensation", 
+        "children": [
+          {
+            "size": 82000, 
+            "name": "Radiation Exposure Compensation Trust Fund", 
+            "bud13": 94000
+          }, 
+          {
+            "size": 82000, 
+            "name": "Payment to Radiation Exposure Compensation Trust Fund", 
+            "bud13": 94000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Parole Commission", 
+        "children": [
+          {
+            "size": 13000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 13000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Justice Programs", 
+        "children": [
+          {
+            "size": 325000, 
+            "name": "Juvenile Justice Programs", 
+            "bud13": 255000
+          }, 
+          {
+            "size": 969000, 
+            "name": "State and Local Law Enforcement Assistance", 
+            "bud13": 1126000
+          }, 
+          {
+            "size": 426000, 
+            "name": "Community Oriented Policing Services", 
+            "bud13": 163000
+          }, 
+          {
+            "size": 123000, 
+            "name": "Research, Evaluation, and Statistics", 
+            "bud13": 104000
+          }, 
+          {
+            "size": 407000, 
+            "name": "Violence against Women Prevention and Prosecution Programs", 
+            "bud13": 400000
+          }, 
+          {
+            "size": 11431000, 
+            "name": "Crime Victims Fund", 
+            "bud13": 10236000
+          }, 
+          {
+            "size": 16000, 
+            "name": "Public Safety Officer Benefits", 
+            "bud13": 16000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Prison System", 
+        "children": [
+          {
+            "size": 6831000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 6591000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Federal Prison Industries, Incorporated", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 75000, 
+            "name": "Buildings and Facilities", 
+            "bud13": 55000
+          }
+        ]
+      }, 
+      {
+        "name": "Interagency Law Enforcement", 
+        "children": [
+          {
+            "size": 523000, 
+            "name": "Interagency Crime and Drug Enforcement", 
+            "bud13": 530000
+          }
+        ]
+      }, 
+      {
+        "name": "Drug Enforcement Administration", 
+        "children": [
+          {
+            "size": 2058000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 2040000
+          }, 
+          {
+            "size": 356000, 
+            "name": "Diversion Control Fee Account", 
+            "bud13": 336000
+          }
+        ]
+      }, 
+      {
+        "name": "National Security Division", 
+        "children": [
+          {
+            "size": 96000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 88000
+          }
+        ]
+      }, 
+      {
+        "name": "General Administration", 
+        "children": [
+          {
+            "size": 126000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 112000
+          }, 
+          {
+            "size": 26000, 
+            "name": "Justice Information Sharing Technology", 
+            "bud13": 44000
+          }, 
+          {
+            "size": 333000, 
+            "name": "Administrative Review and Appeals", 
+            "bud13": 307000
+          }, 
+          {
+            "size": 86000, 
+            "name": "Office of Inspector General", 
+            "bud13": 85000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Bureau of Investigation", 
+        "children": [
+          {
+            "size": 3332000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 3289000
+          }, 
+          {
+            "size": 81000, 
+            "name": "Construction", 
+            "bud13": 81000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Health and Human Services", 
+    "children": [
+      {
+        "name": "Centers for Disease Control and Prevention", 
+        "children": [
+          {
+            "size": 76000, 
+            "name": "Toxic Substances and Environmental Public Health, Agency for Toxic Substances and Disease Registry", 
+            "bud13": 77000
+          }, 
+          {
+            "size": 267000, 
+            "name": "World Trade Center Health Program Fund", 
+            "bud13": 257000
+          }, 
+          {
+            "size": 272000, 
+            "name": "CDC-Wide Activities and Program Support", 
+            "bud13": 183000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Management", 
+        "children": [
+          {
+            "size": 1290000, 
+            "name": "Public Health and Social Services Emergency Fund", 
+            "bud13": 767000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Pregnancy Assistance Fund", 
+            "bud13": 25000
+          }, 
+          {
+            "size": 21000, 
+            "name": "Office of the National Coordinator for Health Information Technology", 
+            "bud13": 17000
+          }, 
+          {
+            "size": 42000, 
+            "name": "Office for Civil Rights", 
+            "bud13": 41000
+          }, 
+          {
+            "size": 301000, 
+            "name": "General Departmental Management", 
+            "bud13": 477000
+          }
+        ]
+      }, 
+      {
+        "name": "Health Resources and Services Administration", 
+        "children": [
+          {
+            "size": 400000, 
+            "name": "Maternal, Infant, and Early Childhood Home Visiting Programs", 
+            "bud13": 400000
+          }, 
+          {
+            "size": 540000, 
+            "name": "Health Resources and Services", 
+            "bud13": 737000
+          }, 
+          {
+            "size": 19000, 
+            "name": "Vaccine Injury Compensation Program Trust Fund", 
+            "bud13": 19000
+          }
+        ]
+      }, 
+      {
+        "name": "Program Support Center", 
+        "children": [
+          {
+            "size": 26000, 
+            "name": "HHS Accrual Contribution to the Uniformed Services Retiree Health Care Fund", 
+            "bud13": 29000
+          }, 
+          {
+            "size": 550000, 
+            "name": "Retirement Pay and Medical Benefits for Commissioned Officers", 
+            "bud13": 522000
+          }, 
+          {
+            "size": 91000, 
+            "name": "Miscellaneous Trust Funds", 
+            "bud13": 91000
+          }
+        ]
+      }, 
+      {
+        "name": "Substance Abuse and Mental Health Services Administration", 
+        "children": [
+          {
+            "size": 3348000, 
+            "name": "Susbstance Abuse and Mental Health Services Administration", 
+            "bud13": 3368000
+          }
+        ]
+      }, 
+      {
+        "name": "Indian Health Service", 
+        "children": [
+          {
+            "size": 150000, 
+            "name": "Indian Health Services", 
+            "bud13": 150000
+          }, 
+          {
+            "size": 8000, 
+            "name": "Indian Health Facilities", 
+            "bud13": 8000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of the Inspector General", 
+        "children": [
+          {
+            "size": 69000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 55000
+          }
+        ]
+      }, 
+      {
+        "name": "National Institutes of Health", 
+        "children": [
+          {
+            "size": 167000, 
+            "name": "National Institutes of Health", 
+            "bud13": 167000
+          }
+        ]
+      }, 
+      {
+        "name": "Administration for Children and Families", 
+        "children": [
+          {
+            "size": 7011000, 
+            "name": "Payments for Foster Care and Permanency", 
+            "bud13": 6921000
+          }, 
+          {
+            "size": 3417000, 
+            "name": "Child Care Entitlement to States", 
+            "bud13": 2917000
+          }, 
+          {
+            "size": 1785000, 
+            "name": "Social Services Block Grant", 
+            "bud13": 2285000
+          }, 
+          {
+            "size": 3020000, 
+            "name": "Low Income Home Energy Assistance", 
+            "bud13": 3493000
+          }, 
+          {
+            "size": 4075000, 
+            "name": "Payments to States for Child Support Enforcement and Family Support Programs", 
+            "bud13": 4004000
+          }, 
+          {
+            "size": 1123000, 
+            "name": "Refugee and Entrant Assistance", 
+            "bud13": 900000
+          }, 
+          {
+            "size": 63000, 
+            "name": "Supporting Healthy Families and Adolescent Development", 
+            "bud13": 63000
+          }, 
+          {
+            "size": 293000, 
+            "name": "Contingency Fund", 
+            "bud13": 612000
+          }, 
+          {
+            "size": 17058000, 
+            "name": "Temporary Assistance for Needy Families", 
+            "bud13": 16739000
+          }, 
+          {
+            "size": 52000, 
+            "name": "Children's Research and Technical Assistance", 
+            "bud13": 52000
+          }, 
+          {
+            "size": 2478000, 
+            "name": "Payments to States for the Child Care and Development Block Grant", 
+            "bud13": 2292000
+          }, 
+          {
+            "size": 11083000, 
+            "name": "Children and Families Services Programs", 
+            "bud13": 10069000
+          }
+        ]
+      }, 
+      {
+        "name": "Food and Drug Administration", 
+        "children": [
+          {
+            "size": 2000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 2000
+          }
+        ]
+      }, 
+      {
+        "name": "Centers for Medicare and Medicaid Services", 
+        "children": [
+          {
+            "size": 277528000, 
+            "name": "Payments to Health Care Trust Funds", 
+            "bud13": 249957000
+          }, 
+          {
+            "size": 328000, 
+            "name": "Medicare Prescription Drug Account, Federal Supplementary Insurance Trust Fund", 
+            "bud13": 361000
+          }, 
+          {
+            "size": 3954000, 
+            "name": "Federal Hospital Insurance Trust Fund", 
+            "bud13": 2567000
+          }, 
+          {
+            "size": 284052000, 
+            "name": "Grants to States for Medicaid", 
+            "bud13": 269384000
+          }, 
+          {
+            "size": 50000, 
+            "name": "Program Management", 
+            "bud13": 50000
+          }, 
+          {
+            "size": 19147000, 
+            "name": "Children's Health Insurance Fund", 
+            "bud13": 17451000
+          }, 
+          {
+            "size": 4000, 
+            "name": "Child Enrollment Contingency Fund", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 532000, 
+            "name": "State Grants and Demonstrations", 
+            "bud13": 530000
+          }, 
+          {
+            "size": 3042000, 
+            "name": "Federal Supplementary Medical Insurance Trust Fund", 
+            "bud13": 3144000
+          }, 
+          {
+            "size": 311000, 
+            "name": "Health Care Fraud and Abuse Control Account", 
+            "bud13": 312000
+          }, 
+          {
+            "size": 1343000, 
+            "name": "Affordable Insurance Exchange Grants", 
+            "bud13": 2751000
+          }
+        ]
+      }, 
+      {
+        "name": "Administration for Community Living", 
+        "children": [
+          {
+            "size": 35000, 
+            "name": "Aging and Disability Services Programs", 
+            "bud13": 10000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Social Security Administration", 
+    "children": [
+      {
+        "name": "Social Security Administration", 
+        "children": [
+          {
+            "size": 29000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 29000
+          }, 
+          {
+            "size": 121000, 
+            "name": "FDI, General Fund Payments for Payroll Tax Holiday (PL 111-312)", 
+            "bud13": -4612000
+          }, 
+          {
+            "size": 716000, 
+            "name": "FOASI, General Fund Payments for Payroll Tax Holiday (PL 111-312)", 
+            "bud13": -27169000
+          }, 
+          {
+            "size": 2535000, 
+            "name": "Federal Disability Insurance Trust Fund", 
+            "bud13": 2952000
+          }, 
+          {
+            "size": 28625000, 
+            "name": "Payments to Social Security Trust Funds", 
+            "bud13": 56076000
+          }, 
+          {
+            "size": 2664000, 
+            "name": "Federal Old-age and Survivors Insurance Trust Fund", 
+            "bud13": 2746000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Special Benefits for Certain World War II Veterans", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 173000, 
+            "name": "State Supplemental Fees", 
+            "bud13": 162000
+          }, 
+          {
+            "size": 3860000, 
+            "name": "Supplemental Security Income Program", 
+            "bud13": 3633000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Agriculture", 
+    "children": [
+      {
+        "name": "Office of the General Counsel", 
+        "children": [
+          {
+            "size": 45000, 
+            "name": "Office of the General Counsel", 
+            "bud13": 40000
+          }
+        ]
+      }, 
+      {
+        "name": "Natural Resources Conservation Service", 
+        "children": [
+          {
+            "size": 1503000, 
+            "name": "Conservation Operations", 
+            "bud13": 833000
+          }, 
+          {
+            "size": 165000, 
+            "name": "Watershed Rehabilitation Program", 
+            "bud13": 165000
+          }, 
+          {
+            "size": 3601000, 
+            "name": "Farm Security and Rural Investment Programs", 
+            "bud13": 3919000
+          }
+        ]
+      }, 
+      {
+        "name": "Economic Research Service", 
+        "children": [
+          {
+            "size": 79000, 
+            "name": "Economic Research Service", 
+            "bud13": 78000
+          }
+        ]
+      }, 
+      {
+        "name": "Forest Service", 
+        "children": [
+          {
+            "size": 2335000, 
+            "name": "Wildland Fire Management", 
+            "bud13": 2333000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Stewardship Contracting Product Sales", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 1557000, 
+            "name": "National Forest System", 
+            "bud13": 1614000
+          }, 
+          {
+            "size": 68000, 
+            "name": "Forest Service Permanent Appropriations", 
+            "bud13": 68000
+          }, 
+          {
+            "size": 240000, 
+            "name": "State and Private Forestry", 
+            "bud13": 346000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Range Betterment Fund", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 329000, 
+            "name": "Capital Improvement and Maintenance", 
+            "bud13": 430000
+          }, 
+          {
+            "size": 337000, 
+            "name": "Forest and Rangeland Research", 
+            "bud13": 326000
+          }, 
+          {
+            "size": 56000, 
+            "name": "Land Acquisition", 
+            "bud13": 45000
+          }, 
+          {
+            "size": 107000, 
+            "name": "Forest Service Trust Funds", 
+            "bud13": 263000
+          }
+        ]
+      }, 
+      {
+        "name": "Risk Management Agency", 
+        "children": [
+          {
+            "size": 8991000, 
+            "name": "Federal Crop Insurance Corporation Fund", 
+            "bud13": 10220000
+          }, 
+          {
+            "size": 71000, 
+            "name": "Administrative and Operating Expenses", 
+            "bud13": 75000
+          }
+        ]
+      }, 
+      {
+        "name": "Rural Development", 
+        "children": [
+          {
+            "size": 204000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 183000
+          }
+        ]
+      }, 
+      {
+        "name": "Grain Inspection, Packers and Stockyards Administration", 
+        "children": [
+          {
+            "size": 41000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 38000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Chief Economist", 
+        "children": [
+          {
+            "size": 13000, 
+            "name": "Office of the Chief Economist", 
+            "bud13": 11000
+          }
+        ]
+      }, 
+      {
+        "name": "Agricultural Marketing Service", 
+        "children": [
+          {
+            "size": 1107000, 
+            "name": "Funds for Strengthening Markets, Income, and Supply (section 32)", 
+            "bud13": 1091000
+          }, 
+          {
+            "size": 11000, 
+            "name": "Perishable Agricultural Commodities Act Fund", 
+            "bud13": 11000
+          }, 
+          {
+            "size": 83000, 
+            "name": "Marketing Services", 
+            "bud13": 83000
+          }, 
+          {
+            "size": 157000, 
+            "name": "Expenses and Refunds, Inspection and Grading of Farm Products", 
+            "bud13": 150000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Payments to States and Possessions", 
+            "bud13": 1000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Civil Rights", 
+        "children": [
+          {
+            "size": 22000, 
+            "name": "Office of Civil Rights", 
+            "bud13": 21000
+          }
+        ]
+      }, 
+      {
+        "name": "Food Safety and Inspection Service", 
+        "children": [
+          {
+            "size": 1008000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 1011000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Expenses and Refunds, Inspection and Grading of Farm Products", 
+            "bud13": 10000
+          }
+        ]
+      }, 
+      {
+        "name": "Food and Nutrition Service", 
+        "children": [
+          {
+            "size": 20617000, 
+            "name": "Child Nutrition Programs", 
+            "bud13": 19702000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 21000, 
+            "name": "Commodity Assistance Program", 
+            "bud13": 21000
+          }, 
+          {
+            "size": 147000, 
+            "name": "Nutrition Programs Administration", 
+            "bud13": 139000
+          }, 
+          {
+            "size": 7000, 
+            "name": "Supplemental Nutrition Assistance Program", 
+            "bud13": -10000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Inspector General", 
+        "children": [
+          {
+            "size": 90000, 
+            "name": "Office of Inspector General", 
+            "bud13": 86000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Management", 
+        "children": [
+          {
+            "size": 4000, 
+            "name": "Hazardous Materials Management", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 32000, 
+            "name": "Departmental Administration", 
+            "bud13": 31000
+          }, 
+          {
+            "size": 233000, 
+            "name": "Agriculture Buildings and Facilities and Rental Payments", 
+            "bud13": 232000
+          }
+        ]
+      }, 
+      {
+        "name": "Rural Housing Service", 
+        "children": [
+          {
+            "size": 33000, 
+            "name": "Multifamily Housing Revitalization Program Account", 
+            "bud13": 13000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Mutual and Self-help Housing Grants", 
+            "bud13": 30000
+          }, 
+          {
+            "size": 450000, 
+            "name": "Rural Housing Insurance Fund Program Account", 
+            "bud13": 514000
+          }, 
+          {
+            "size": 17000, 
+            "name": "Rural Community Facilities Program Account", 
+            "bud13": 29000
+          }, 
+          {
+            "size": 1015000, 
+            "name": "Rental Assistance Program", 
+            "bud13": 910000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Rural Housing Assistance Grants", 
+            "bud13": 33000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Communications", 
+        "children": [
+          {
+            "size": 8000, 
+            "name": "Office of Communications", 
+            "bud13": 8000
+          }
+        ]
+      }, 
+      {
+        "name": "Rural Utilities Service", 
+        "children": [
+          {
+            "size": 35000, 
+            "name": "Rural Electrification and Telecommunications Loans Program Account", 
+            "bud13": 38000
+          }, 
+          {
+            "size": 44000, 
+            "name": "Distance Learning, Telemedicine, and Broadband Program", 
+            "bud13": 38000
+          }, 
+          {
+            "size": 304000, 
+            "name": "Rural Water and Waste Disposal Program Account", 
+            "bud13": 506000
+          }
+        ]
+      }, 
+      {
+        "name": "Foreign Agricultural Service", 
+        "children": [
+          {
+            "size": 2000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 185000, 
+            "name": "McGovern-Dole International Food for Education and Child Nutrition Program", 
+            "bud13": 185000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Public Law 480 Title I Direct Credit and Food for Progress Program Account", 
+            "bud13": 3000
+          }
+        ]
+      }, 
+      {
+        "name": "Rural Business_Cooperative Service", 
+        "children": [
+          {
+            "size": 52000, 
+            "name": "Rural Business Program Account", 
+            "bud13": 75000
+          }, 
+          {
+            "size": 17000, 
+            "name": "Rural Cooperative Development Grants", 
+            "bud13": 25000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Rural Microenterprise Investment Program Account", 
+            "bud13": -3000
+          }, 
+          {
+            "size": 9000, 
+            "name": "Rural Development Loan Fund Program Account", 
+            "bud13": 11000
+          }, 
+          {
+            "size": 45000, 
+            "name": "Energy Assistance Payments", 
+            "bud13": 80000
+          }, 
+          {
+            "size": 20000, 
+            "name": "Rural Energy for America Program", 
+            "bud13": -38000
+          }
+        ]
+      }, 
+      {
+        "name": "Farm Service Agency", 
+        "children": [
+          {
+            "size": 2180000, 
+            "name": "Commodity Credit Corporation Fund", 
+            "bud13": 2113000
+          }, 
+          {
+            "size": 1176000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 1206000
+          }, 
+          {
+            "size": 4000, 
+            "name": "State Mediation Grants", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 960000, 
+            "name": "Tobacco Trust Fund", 
+            "bud13": 960000
+          }, 
+          {
+            "size": 406000, 
+            "name": "Agricultural Credit Insurance Fund Program Account", 
+            "bud13": 408000
+          }, 
+          {
+            "size": 7000, 
+            "name": "Commodity Credit Corporation Export Loans Program Account", 
+            "bud13": 7000
+          }
+        ]
+      }, 
+      {
+        "name": "Animal and Plant Health Inspection Service", 
+        "children": [
+          {
+            "size": 261000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 258000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Buildings and Facilities", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 9000, 
+            "name": "Miscellaneous Trust Funds", 
+            "bud13": 9000
+          }
+        ]
+      }, 
+      {
+        "name": "National Appeals Division", 
+        "children": [
+          {
+            "size": 13000, 
+            "name": "National Appeals Division", 
+            "bud13": 13000
+          }
+        ]
+      }, 
+      {
+        "name": "Agricultural Research Service", 
+        "children": [
+          {
+            "size": 1124000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 1101000
+          }, 
+          {
+            "size": 24000, 
+            "name": "Miscellaneous Contributed Funds", 
+            "bud13": 30000
+          }
+        ]
+      }, 
+      {
+        "name": "National Institute of Food and Agriculture", 
+        "children": [
+          {
+            "size": 806000, 
+            "name": "Research and Education Activities", 
+            "bud13": 714000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Extension Activities", 
+            "bud13": 5000
+          }, 
+          {
+            "size": 28000, 
+            "name": "Integrated Activities", 
+            "bud13": 22000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of the Secretary", 
+        "children": [
+          {
+            "size": 17000, 
+            "name": "Office of the Secretary", 
+            "bud13": 16000
+          }
+        ]
+      }, 
+      {
+        "name": "National Agricultural Statistics Service", 
+        "children": [
+          {
+            "size": 160000, 
+            "name": "National Agricultural Statistics Service", 
+            "bud13": 160000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "NASA", 
+    "children": [
+      {
+        "name": "NASA", 
+        "children": [
+          {
+            "size": 743000, 
+            "name": "Space Technology", 
+            "bud13": 579000
+          }, 
+          {
+            "size": 566000, 
+            "name": "Aeronautics", 
+            "bud13": 572000
+          }, 
+          {
+            "size": 5018000, 
+            "name": "Science", 
+            "bud13": 5116000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Science, Space, and Technology Education Trust Fund", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 3883000, 
+            "name": "Space Operations", 
+            "bud13": 4247000
+          }, 
+          {
+            "size": 609000, 
+            "name": "Construction, Environmental Compliance, and Remediation", 
+            "bud13": 402000
+          }, 
+          {
+            "size": 3916000, 
+            "name": "Exploration", 
+            "bud13": 3790000
+          }, 
+          {
+            "size": 2850000, 
+            "name": "Cross Agency Support", 
+            "bud13": 3012000
+          }, 
+          {
+            "size": 94000, 
+            "name": "Education", 
+            "bud13": 137000
+          }, 
+          {
+            "size": 37000, 
+            "name": "Office of Inspector General", 
+            "bud13": 39000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Transportation", 
+    "children": [
+      {
+        "name": "Saint Lawrence Seaway Development Corporation", 
+        "children": [
+          {
+            "size": 33000, 
+            "name": "Operations and Maintenance", 
+            "bud13": 32000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Aviation Administration", 
+        "children": [
+          {
+            "size": 3350000, 
+            "name": "Grants-in-aid for Airports (Airport and Airway Trust Fund)", 
+            "bud13": 3350000
+          }, 
+          {
+            "size": 6484000, 
+            "name": "Trust Fund Share of FAA Activities (Airport and Airway Trust Fund)", 
+            "bud13": 5092000
+          }, 
+          {
+            "size": 3223000, 
+            "name": "Operations", 
+            "bud13": 4621000
+          }, 
+          {
+            "size": 166000, 
+            "name": "Research, Engineering and Development (Airport and Airway Trust Fund)", 
+            "bud13": 169000
+          }, 
+          {
+            "size": 2778000, 
+            "name": "Facilities and Equipment (Airport and Airway Trust Fund)", 
+            "bud13": 2777000
+          }
+        ]
+      }, 
+      {
+        "name": "Pipeline and Hazardous Materials Safety Administration", 
+        "children": [
+          {
+            "size": 52000, 
+            "name": "Hazardous Materials Safety", 
+            "bud13": 42000
+          }, 
+          {
+            "size": 19000, 
+            "name": "Trust Fund Share of Pipeline Safety", 
+            "bud13": 19000
+          }, 
+          {
+            "size": 28000, 
+            "name": "Emergency Preparedness Grants", 
+            "bud13": 28000
+          }, 
+          {
+            "size": 20000, 
+            "name": "Operational Expenses", 
+            "bud13": 20000
+          }, 
+          {
+            "size": 137000, 
+            "name": "Pipeline Safety", 
+            "bud13": 92000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Highway Administration", 
+        "children": [
+          {
+            "size": 15152000, 
+            "name": "Payment to the Transportation Trust Fund", 
+            "bud13": 6200000
+          }, 
+          {
+            "size": 39695000, 
+            "name": "Federal-aid Highways", 
+            "bud13": 39138000
+          }, 
+          {
+            "size": 24000, 
+            "name": "Miscellaneous Trust Funds", 
+            "bud13": 24000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Transit Administration", 
+        "children": [
+          {
+            "size": 30000, 
+            "name": "Research and University Research Centers", 
+            "bud13": 44000
+          }, 
+          {
+            "size": 9895000, 
+            "name": "Transit Formula Grants", 
+            "bud13": 9778000
+          }, 
+          {
+            "size": 110000, 
+            "name": "Administrative Expenses", 
+            "bud13": 99000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Public Transportation Emergency Relief Program", 
+            "bud13": 10894000
+          }, 
+          {
+            "size": 150000, 
+            "name": "Washington Metropolitan Area Transit Authority", 
+            "bud13": 151000
+          }, 
+          {
+            "size": 1981000, 
+            "name": "Capital Investment Grants", 
+            "bud13": 1923000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of the Secretary", 
+        "children": [
+          {
+            "size": 6000, 
+            "name": "Cyber Security Initiatives", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 116000, 
+            "name": "Essential Air Service and Rural Airport Improvement Fund", 
+            "bud13": 50000
+          }, 
+          {
+            "size": 500000, 
+            "name": "National Infrastructure Investments", 
+            "bud13": 503000
+          }, 
+          {
+            "size": 113000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 103000
+          }, 
+          {
+            "size": 146000, 
+            "name": "Payments to Air Carriers", 
+            "bud13": 144000
+          }, 
+          {
+            "size": 7000, 
+            "name": "Transportation Planning, Research, and Development", 
+            "bud13": 9000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Minority Business Outreach", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Office of Civil Rights", 
+            "bud13": 9000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Financial Management Capital", 
+            "bud13": 5000
+          }, 
+          {
+            "size": 15000, 
+            "name": "Research and Development", 
+            "bud13": 16000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Minority Business Resource Center Program", 
+            "bud13": 1000
+          }
+        ]
+      }, 
+      {
+        "name": "Surface Transportation Board", 
+        "children": [
+          {
+            "size": 30000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 28000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Motor Carrier Safety Administration", 
+        "children": [
+          {
+            "size": 259000, 
+            "name": "Motor Carrier Safety Operations and Programs", 
+            "bud13": 251000
+          }, 
+          {
+            "size": 313000, 
+            "name": "Motor Carrier Safety Grants", 
+            "bud13": 310000
+          }
+        ]
+      }, 
+      {
+        "name": "Federal Railroad Administration", 
+        "children": [
+          {
+            "size": 35000, 
+            "name": "Railroad Research and Development", 
+            "bud13": 35000
+          }, 
+          {
+            "size": 185000, 
+            "name": "Safety and Operations", 
+            "bud13": 180000
+          }
+        ]
+      }, 
+      {
+        "name": "National Highway Traffic Safety Administration", 
+        "children": [
+          {
+            "size": 562000, 
+            "name": "Highway Traffic Safety Grants", 
+            "bud13": 554000
+          }, 
+          {
+            "size": 119000, 
+            "name": "Operations and Research (Transportation Trust Fund)", 
+            "bud13": 116000
+          }, 
+          {
+            "size": 148000, 
+            "name": "Operations and Research", 
+            "bud13": 141000
+          }
+        ]
+      }, 
+      {
+        "name": "Office of Inspector General", 
+        "children": [
+          {
+            "size": 86000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 86000
+          }
+        ]
+      }, 
+      {
+        "name": "Maritime Administration", 
+        "children": [
+          {
+            "size": 1000, 
+            "name": "Miscellaneous Trust Funds, Maritime Administration", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 152000, 
+            "name": "Operations and Training", 
+            "bud13": 157000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Maritime Guaranteed Loan (title XI) Program Account", 
+            "bud13": 4000
+          }, 
+          {
+            "size": 208000, 
+            "name": "Maritime Security Program", 
+            "bud13": 175000
+          }, 
+          {
+            "size": 50000, 
+            "name": "Ocean Freight Differential", 
+            "bud13": 102000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Ship Disposal", 
+            "bud13": 6000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Office of Personnel Management", 
+    "children": [
+      {
+        "name": "Office of Personnel Management", 
+        "children": [
+          {
+            "size": 33140000, 
+            "name": "Payment to Civil Service Retirement and Disability Fund", 
+            "bud13": 32374000
+          }, 
+          {
+            "size": 11163000, 
+            "name": "Government Payment for Annuitants, Employees Health Benefits", 
+            "bud13": 10698000
+          }, 
+          {
+            "size": 96000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 99000
+          }, 
+          {
+            "size": 38000, 
+            "name": "Employees and Retired Employees Health Benefits Funds", 
+            "bud13": 41000
+          }, 
+          {
+            "size": 98000, 
+            "name": "Civil Service Retirement and Disability Fund", 
+            "bud13": 91000
+          }, 
+          {
+            "size": 3199000, 
+            "name": "Postal Service Retiree Health Benefits Fund", 
+            "bud13": 2912000
+          }, 
+          {
+            "size": 6000, 
+            "name": "Employees Life Insurance Fund", 
+            "bud13": 5000
+          }, 
+          {
+            "size": 45000, 
+            "name": "Government Payment for Annuitants, Employee Life Insurance", 
+            "bud13": 46000
+          }, 
+          {
+            "size": 5000, 
+            "name": "Office of Inspector General", 
+            "bud13": 3000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Other Defense Civil Programs", 
+    "children": [
+      {
+        "name": "American Battle Monuments Commission", 
+        "children": [
+          {
+            "size": 72000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 77000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Contributions", 
+            "bud13": 1000
+          }
+        ]
+      }, 
+      {
+        "name": "Military Retirement", 
+        "children": [
+          {
+            "size": 55572000, 
+            "name": "Military Retirement Fund", 
+            "bud13": 53851000
+          }, 
+          {
+            "size": 70272000, 
+            "name": "Payment to Military Retirement Fund", 
+            "bud13": 67733000
+          }
+        ]
+      }, 
+      {
+        "name": "Forest and Wildlife Conservation, Military Reservations", 
+        "children": [
+          {
+            "size": 3000, 
+            "name": "Wildlife Conservation", 
+            "bud13": 3000
+          }
+        ]
+      }, 
+      {
+        "name": "Armed Forces Retirement Home", 
+        "children": [
+          {
+            "size": 68000, 
+            "name": "Armed Forces Retirement Home", 
+            "bud13": 84000
+          }
+        ]
+      }, 
+      {
+        "name": "Educational Benefits", 
+        "children": [
+          {
+            "size": 303000, 
+            "name": "Education Benefits Fund", 
+            "bud13": 307000
+          }
+        ]
+      }, 
+      {
+        "name": "Retiree Health Care", 
+        "children": [
+          {
+            "size": 9499000, 
+            "name": "Defense Medicare-Eligible Retiree Health Care Fund", 
+            "bud13": 9283000
+          }, 
+          {
+            "size": 3656000, 
+            "name": "Payment to Defense Medicare-Eligible Retiree Health Care Fund", 
+            "bud13": 6142000
+          }
+        ]
+      }, 
+      {
+        "name": "Cemeterial Expenses", 
+        "children": [
+          {
+            "size": 46000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 46000
+          }
+        ]
+      }, 
+      {
+        "name": "Selective Service System", 
+        "children": [
+          {
+            "size": 24000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 24000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Energy", 
+    "children": [
+      {
+        "name": "National Nuclear Security Administration", 
+        "children": [
+          {
+            "size": 7868000, 
+            "name": "Weapons Activities", 
+            "bud13": 7557000
+          }, 
+          {
+            "size": 1246000, 
+            "name": "Naval Reactors", 
+            "bud13": 1087000
+          }, 
+          {
+            "size": 398000, 
+            "name": "Office of the Administrator", 
+            "bud13": 413000
+          }, 
+          {
+            "size": 2140000, 
+            "name": "Defense Nuclear Nonproliferation", 
+            "bud13": 2410000
+          }
+        ]
+      }, 
+      {
+        "name": "Environmental and Other Defense Activities", 
+        "children": [
+          {
+            "size": 5317000, 
+            "name": "Defense Environmental Cleanup", 
+            "bud13": 5034000
+          }, 
+          {
+            "size": 749000, 
+            "name": "Other Defense Activities", 
+            "bud13": 828000
+          }
+        ]
+      }, 
+      {
+        "name": "Departmental Administration", 
+        "children": [
+          {
+            "size": 118000, 
+            "name": "Departmental Administration", 
+            "bud13": 131000
+          }, 
+          {
+            "size": 42000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 42000
+          }
+        ]
+      }, 
+      {
+        "name": "Energy Programs", 
+        "children": [
+          {
+            "size": 8000, 
+            "name": "Northeast Home Heating Oil Reserve", 
+            "bud13": 10000
+          }, 
+          {
+            "size": 15000, 
+            "name": "Electricity Delivery and Energy Reliability", 
+            "bud13": 5000
+          }, 
+          {
+            "size": 213000, 
+            "name": "Non-defense Environmental Cleanup", 
+            "bud13": 237000
+          }, 
+          {
+            "size": 189000, 
+            "name": "Strategic Petroleum Reserve", 
+            "bud13": 194000
+          }, 
+          {
+            "size": 1104000, 
+            "name": "Energy Efficiency and Renewable Energy", 
+            "bud13": 887000
+          }, 
+          {
+            "size": 555000, 
+            "name": "Uranium Enrichment Decontamination and Decommissioning Fund", 
+            "bud13": 475000
+          }, 
+          {
+            "size": 5153000, 
+            "name": "Science", 
+            "bud13": 4904000
+          }, 
+          {
+            "size": 6000, 
+            "name": "Advanced Technology Vehicles Manufacturing Loan Program Account", 
+            "bud13": 6000
+          }, 
+          {
+            "size": 379000, 
+            "name": "Advanced Research Projects Agency", 
+            "bud13": 277000
+          }, 
+          {
+            "size": 635000, 
+            "name": "Nuclear Energy", 
+            "bud13": 771000
+          }, 
+          {
+            "size": 421000, 
+            "name": "Fossil Energy Research and Development", 
+            "bud13": 495000
+          }, 
+          {
+            "size": 117000, 
+            "name": "Energy Information Administration", 
+            "bud13": 106000
+          }, 
+          {
+            "size": 3000, 
+            "name": "Payments to States under Federal Power Act", 
+            "bud13": 3000
+          }, 
+          {
+            "size": 20000, 
+            "name": "Naval Petroleum and Oil Shale Reserves", 
+            "bud13": 15000
+          }
+        ]
+      }, 
+      {
+        "name": "Power Marketing Administration", 
+        "children": [
+          {
+            "size": 96000, 
+            "name": "Construction, Rehabilitation, Operation and Maintenance, Western Area Power Administration", 
+            "bud13": 98000
+          }, 
+          {
+            "size": 1027000, 
+            "name": "Bonneville Power Administration Fund", 
+            "bud13": 945000
+          }, 
+          {
+            "size": 12000, 
+            "name": "Operation and Maintenance, Southwestern Power Administration", 
+            "bud13": 12000
+          }, 
+          {
+            "size": 29000, 
+            "name": "Western Area Power Administration, Borrowing Authority, Recovery Act.", 
+            "bud13": 29000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Judicial Branch", 
+    "children": [
+      {
+        "name": "Federal Judicial Center", 
+        "children": [
+          {
+            "size": 28000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 27000
+          }
+        ]
+      }, 
+      {
+        "name": "Courts of Appeals, District Courts, and other Judicial Services", 
+        "children": [
+          {
+            "size": 353000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 338000
+          }, 
+          {
+            "size": 1069000, 
+            "name": "Defender Services", 
+            "bud13": 1037000
+          }, 
+          {
+            "size": 54000, 
+            "name": "Fees of Jurors and Commissioners", 
+            "bud13": 52000
+          }, 
+          {
+            "size": 1000, 
+            "name": "Registry Administration", 
+            "bud13": 1000
+          }, 
+          {
+            "size": 524000, 
+            "name": "Court Security", 
+            "bud13": 503000
+          }, 
+          {
+            "size": 507000, 
+            "name": "Judiciary Information Technology Fund", 
+            "bud13": 442000
+          }, 
+          {
+            "size": 268000, 
+            "name": "Judiciary Filing Fees", 
+            "bud13": 256000
+          }
+        ]
+      }, 
+      {
+        "name": "Supreme Court of the United States", 
+        "children": [
+          {
+            "size": 2000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 12000, 
+            "name": "Care of the Building and Grounds", 
+            "bud13": 8000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Sentencing Commission", 
+        "children": [
+          {
+            "size": 17000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 17000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Court of International Trade", 
+        "children": [
+          {
+            "size": 2000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 2000
+          }
+        ]
+      }, 
+      {
+        "name": "Judicial Retirement Funds", 
+        "children": [
+          {
+            "size": 39000, 
+            "name": "Judicial Survivors' Annuities Fund", 
+            "bud13": 44000
+          }, 
+          {
+            "size": 117000, 
+            "name": "Judicial Officers' Retirement Fund", 
+            "bud13": 107000
+          }, 
+          {
+            "size": 6000, 
+            "name": "United States Court of Federal Claims Judges' Retirement Fund", 
+            "bud13": 7000
+          }, 
+          {
+            "size": 127000, 
+            "name": "Payment to Judiciary Trust Funds", 
+            "bud13": 125000
+          }
+        ]
+      }, 
+      {
+        "name": "Administrative Office of the United States Courts", 
+        "children": [
+          {
+            "size": 85000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 83000
+          }
+        ]
+      }, 
+      {
+        "name": "United States Court of Appeals for the Federal Circuit", 
+        "children": [
+          {
+            "size": 3000, 
+            "name": "Salaries and Expenses", 
+            "bud13": 3000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Defense--Military Programs", 
+    "children": [
+      {
+        "name": "Family Housing", 
+        "children": [
+          {
+            "size": 389000, 
+            "name": "Family Housing Operation and Maintenance, Air Force", 
+            "bud13": 432000
+          }, 
+          {
+            "size": 390000, 
+            "name": "Family Housing Operation and Maintenance, Navy and Marine Corps", 
+            "bud13": 370000
+          }, 
+          {
+            "size": 44000, 
+            "name": "Family Housing Construction, Army", 
+            "bud13": 178000
+          }, 
+          {
+            "size": 76000, 
+            "name": "Family Housing Construction, Air Force", 
+            "bud13": 60000
+          }, 
+          {
+            "size": 513000, 
+            "name": "Family Housing Operation and Maintenance, Army", 
+            "bud13": 497000
+          }, 
+          {
+            "size": 56000, 
+            "name": "Family Housing Operation and Maintenance, Defense-Wide", 
+            "bud13": 51000
+          }, 
+          {
+            "size": 2000, 
+            "name": "Defense Family Housing Improvement Fund", 
+            "bud13": 2000
+          }, 
+          {
+            "size": 73000, 
+            "name": "Family Housing Construction, Navy and Marine Corps", 
+            "bud13": 102000
+          }
+        ]
+      }, 
+      {
+        "name": "Trust Funds", 
+        "children": [
+          {
+            "size": 99000, 
+            "name": "Voluntary Separation Incentive Fund", 
+            "bud13": 106000
+          }, 
+          {
+            "size": 26000, 
+            "name": "Other DOD Trust Funds", 
+            "bud13": 26000
+          }, 
+          {
+            "size": 133000, 
+            "name": "Host Nation Support Fund for Relocation", 
+            "bud13": 296000
+          }, 
+          {
+            "size": 44000, 
+            "name": "Foreign National Employees Separation Pay", 
+            "bud13": 44000
+          }
+        ]
+      }, 
+      {
+        "name": "Military Construction", 
+        "children": [
+          {
+            "size": 123000, 
+            "name": "Chemical Demilitarization Construction, Defense-wide", 
+            "bud13": 76000
+          }, 
+          {
+            "size": 1157000, 
+            "name": "Military Construction, Air Force", 
+            "bud13": 1193000
+          }, 
+          {
+            "size": 3985000, 
+            "name": "Military Construction, Defense-wide", 
+            "bud13": 3282000
+          }, 
+          {
+            "size": 120000, 
+            "name": "Military Construction, Air National Guard", 
+            "bud13": 117000
+          }, 
+          {
+            "size": 1120000, 
+            "name": "Military Construction, Army", 
+            "bud13": 2921000
+          }, 
+          {
+            "size": 1700000, 
+            "name": "Military Construction, Navy and Marine Corps", 
+            "bud13": 2079000
+          }, 
+          {
+            "size": 321000, 
+            "name": "Military Construction, Army National Guard", 
+            "bud13": 803000
+          }, 
+          {
+            "size": 174000, 
+            "name": "Military Construction, Army Reserve", 
+            "bud13": 282000
+          }, 
+          {
+            "size": 33000, 
+            "name": "Military Construction, Navy Reserve", 
+            "bud13": 26000
+          }, 
+          {
+            "size": 46000, 
+            "name": "Military Construction, Air Force Reserve", 
+            "bud13": 34000
+          }, 
+          {
+            "size": 240000, 
+            "name": "North Atlantic Treaty Organization Security Investment Program", 
+            "bud13": 249000
+          }
+        ]
+      }, 
+      {
+        "name": "Operation and Maintenance", 
+        "children": [
+          {
+            "size": 312000, 
+            "name": "Office of the Inspector General", 
+            "bud13": 360000
+          }, 
+          {
+            "size": 263000, 
+            "name": "Operation and Maintenance, Marine Corps Reserve", 
+            "bud13": 299000
+          }, 
+          {
+            "size": 237000, 
+            "name": "Environmental Restoration, Formerly Used Defense Sites", 
+            "bud13": 328000
+          }, 
+          {
+            "size": 35073000, 
+            "name": "Operation and Maintenance, Army", 
+            "bud13": 59337000
+          }, 
+          {
+            "size": 1198000, 
+            "name": "Operation and Maintenance, Navy Reserve", 
+            "bud13": 1369000
+          }, 
+          {
+            "size": 14000, 
+            "name": "United States Court of Appeals for the Armed Forces", 
+            "bud13": 14000
+          }, 
+          {
+            "size": 6255000, 
+            "name": "Operation and Maintenance, Marine Corps", 
+            "bud13": 9643000
+          }, 
+          {
+            "size": 33040000, 
+            "name": "Defense Health Program", 
+            "bud13": 33663000
+          }, 
+          {
+            "size": 30000, 
+            "name": "Lease of Defense Real Property", 
+            "bud13": 29000
+          }, 
+          {
+            "size": 812000, 
+            "name": "Allied Contributions and Cooperation Account", 
+            "bud13": 798000
+          }, 
+          {
+            "size": 32997000, 
+            "name": "Operation and Maintenance, Defense-wide", 
+            "bud13": 38457000
+          }, 
+          {
+            "size": 110000, 
+            "name": "Overseas Humanitarian, Disaster, and Civic Aid", 
+            "bud13": 108000
+          }, 
+          {
+            "size": 37271000, 
+            "name": "Operation and Maintenance, Air Force", 
+            "bud13": 44442000
+          }, 
+          {
+            "size": 3164000, 
+            "name": "Operation and Maintenance, Air Force Reserve", 
+            "bud13": 3415000
+          }, 
+          {
+            "size": 39945000, 
+            "name": "Operation and Maintenance, Navy", 
+            "bud13": 44275000
+          }, 
+          {
+            "size": 7054000, 
+            "name": "Operation and Maintenance, Army National Guard", 
+            "bud13": 7353000
+          }, 
+          {
+            "size": 939000, 
+            "name": "Drug Interdiction and Counter-Drug Activities", 
+            "bud13": 1686000
+          }, 
+          {
+            "size": 1065000, 
+            "name": "The Defense Environmental Restoration Accounts", 
+            "bud13": 1198000
+          }, 
+          {
+            "size": 10000, 
+            "name": "Disposal of Defense Real Property", 
+            "bud13": 14000
+          }, 
+          {
+            "size": 6566000, 
+            "name": "Operation and Maintenance, Air National Guard", 
+            "bud13": 6162000
+          }, 
+          {
+            "size": 256000, 
+            "name": "Defense Acquisition Workforce Development Fund", 
+            "bud13": 106000
+          }, 
+          {
+            "size": 3095000, 
+            "name": "Operation and Maintenance, Army Reserve", 
+            "bud13": 3245000
+          }, 
+          {
+            "size": 528000, 
+            "name": "Cooperative Threat Reduction Account", 
+            "bud13": 511000
+          }
+        ]
+      }, 
+      {
+        "name": "Procurement", 
+        "children": [
+          {
+            "size": 1540000, 
+            "name": "Procurement of Ammunition, Army", 
+            "bud13": 2239000
+          }, 
+          {
+            "size": 4534000, 
+            "name": "Procurement, Defense-wide", 
+            "bud13": 5130000
+          }, 
+          {
+            "size": 5343000, 
+            "name": "Missile Procurement, Air Force", 
+            "bud13": 5945000
+          }, 
+          {
+            "size": 11399000, 
+            "name": "Aircraft Procurement, Air Force", 
+            "bud13": 13049000
+          }, 
+          {
+            "size": 759000, 
+            "name": "Procurement of Ammunition, Air Force", 
+            "bud13": 618000
+          }, 
+          {
+            "size": 1597000, 
+            "name": "Procurement of Weapons and Tracked Combat Vehicles, Army", 
+            "bud13": 2080000
+          }, 
+          {
+            "size": 6310000, 
+            "name": "Other Procurement, Navy", 
+            "bud13": 6089000
+          }, 
+          {
+            "size": 3122000, 
+            "name": "Weapons Procurement, Navy", 
+            "bud13": 3233000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Defense Production Act Purchases", 
+            "bud13": 171000
+          }, 
+          {
+            "size": 589000, 
+            "name": "Procurement of Ammunition, Navy and Marine Corps", 
+            "bud13": 888000
+          }, 
+          {
+            "size": 1344000, 
+            "name": "Procurement, Marine Corps", 
+            "bud13": 2375000
+          }, 
+          {
+            "size": 6465000, 
+            "name": "Other Procurement, Army", 
+            "bud13": 9547000
+          }, 
+          {
+            "size": 16761000, 
+            "name": "Other Procurement, Air Force", 
+            "bud13": 20271000
+          }, 
+          {
+            "size": 17928000, 
+            "name": "Aircraft Procurement, Navy", 
+            "bud13": 17870000
+          }, 
+          {
+            "size": 1057000, 
+            "name": "Chemical Agents and Munitions Destruction, Defense", 
+            "bud13": 1564000
+          }, 
+          {
+            "size": 1334000, 
+            "name": "Missile Procurement, Army", 
+            "bud13": 1490000
+          }, 
+          {
+            "size": 14078000, 
+            "name": "Shipbuilding and Conversion, Navy", 
+            "bud13": 15010000
+          }, 
+          {
+            "size": 5024000, 
+            "name": "Aircraft Procurement, Army", 
+            "bud13": 5858000
+          }
+        ]
+      }, 
+      {
+        "name": "Revolving and Management Funds", 
+        "children": [
+          {
+            "size": 731000, 
+            "name": "National Defense Sealift Fund", 
+            "bud13": 1107000
+          }, 
+          {
+            "size": 46000, 
+            "name": "Working Capital Fund, Defense-Wide", 
+            "bud13": 252000
+          }, 
+          {
+            "size": 62000, 
+            "name": "Working Capital Fund, Air Force", 
+            "bud13": 306000
+          }, 
+          {
+            "size": 1413000, 
+            "name": "Working Capital Fund, Defense Commissary Agency", 
+            "bud13": 1385000
+          }, 
+          {
+            "size": 25000, 
+            "name": "Working Capital Fund, Army", 
+            "bud13": 144000
+          }
+        ]
+      }, 
+      {
+        "name": "Military Personnel", 
+        "children": [
+          {
+            "size": 4565000, 
+            "name": "Reserve Personnel, Army", 
+            "bud13": 4473000
+          }, 
+          {
+            "size": 141000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Reserve Personnel, Air Force", 
+            "bud13": 175000
+          }, 
+          {
+            "size": 8041000, 
+            "name": "National Guard Personnel, Army", 
+            "bud13": 8216000
+          }, 
+          {
+            "size": 27824000, 
+            "name": "Military Personnel, Navy", 
+            "bud13": 27842000
+          }, 
+          {
+            "size": 742000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, National Guard Personnel, Army", 
+            "bud13": 909000
+          }, 
+          {
+            "size": 12905000, 
+            "name": "Military Personnel, Marine Corps", 
+            "bud13": 15340000
+          }, 
+          {
+            "size": 135000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Reserve Personnel, Navy", 
+            "bud13": 169000
+          }, 
+          {
+            "size": 41038000, 
+            "name": "Military Personnel, Army", 
+            "bud13": 52728000
+          }, 
+          {
+            "size": 6970000, 
+            "name": "Concurrent Receipt Accrual Payments to the Military Retirement Fund", 
+            "bud13": 6791000
+          }, 
+          {
+            "size": 1892000, 
+            "name": "Reserve Personnel, Navy", 
+            "bud13": 1987000
+          }, 
+          {
+            "size": 427000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Reserve Personnel, Army", 
+            "bud13": 522000
+          }, 
+          {
+            "size": 1824000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Army", 
+            "bud13": 2434000
+          }, 
+          {
+            "size": 28520000, 
+            "name": "Military Personnel, Air Force", 
+            "bud13": 29555000
+          }, 
+          {
+            "size": 1218000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Air Force", 
+            "bud13": 1442000
+          }, 
+          {
+            "size": 677000, 
+            "name": "Reserve Personnel, Marine Corps", 
+            "bud13": 673000
+          }, 
+          {
+            "size": 81000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Reserve Personnel, Marine Corps", 
+            "bud13": 98000
+          }, 
+          {
+            "size": 684000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Marine Corps", 
+            "bud13": 876000
+          }, 
+          {
+            "size": 1198000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, Navy", 
+            "bud13": 1397000
+          }, 
+          {
+            "size": 228000, 
+            "name": "Medicare-Eligible Retiree Health Fund Contribution, National Guard Personnel, Air Force", 
+            "bud13": 275000
+          }, 
+          {
+            "size": 1759000, 
+            "name": "Reserve Personnel, Air Force", 
+            "bud13": 1749000
+          }, 
+          {
+            "size": 3178000, 
+            "name": "National Guard Personnel, Air Force", 
+            "bud13": 3118000
+          }
+        ]
+      }, 
+      {
+        "name": "Research, Development, Test, and Evaluation", 
+        "children": [
+          {
+            "size": 17667000, 
+            "name": "Research, Development, Test and Evaluation, Defense-wide", 
+            "bud13": 19391000
+          }, 
+          {
+            "size": 7989000, 
+            "name": "Research, Development, Test and Evaluation, Army", 
+            "bud13": 8815000
+          }, 
+          {
+            "size": 25703000, 
+            "name": "Research, Development, Test and Evaluation, Air Force", 
+            "bud13": 26695000
+          }, 
+          {
+            "size": 15975000, 
+            "name": "Research, Development, Test and Evaluation, Navy", 
+            "bud13": 17908000
+          }, 
+          {
+            "size": 186000, 
+            "name": "Operational Test and Evaluation, Defense", 
+            "bud13": 189000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Environmental Protection Agency", 
+    "children": [
+      {
+        "name": "Environmental Protection Agency", 
+        "children": [
+          {
+            "size": 2813000, 
+            "name": "Environmental Programs and Management", 
+            "bud13": 2696000
+          }, 
+          {
+            "size": 3154000, 
+            "name": "State and Tribal Assistance Grants", 
+            "bud13": 4190000
+          }, 
+          {
+            "size": 11000, 
+            "name": "Pesticide Registration Fund", 
+            "bud13": 11000
+          }, 
+          {
+            "size": 19000, 
+            "name": "Hazardous Substance Superfund", 
+            "bud13": 14000
+          }, 
+          {
+            "size": 784000, 
+            "name": "Science and Technology", 
+            "bud13": 799000
+          }, 
+          {
+            "size": 21000, 
+            "name": "Inland Oil Spill Programs", 
+            "bud13": 13000
+          }, 
+          {
+            "size": 54000, 
+            "name": "Buildings and Facilities", 
+            "bud13": 37000
+          }, 
+          {
+            "size": 99000, 
+            "name": "Leaking Underground Storage Tank Trust Fund", 
+            "bud13": 110000
+          }, 
+          {
+            "size": 1042000, 
+            "name": "Payment to the Hazardous Substance Superfund", 
+            "bud13": 1144000
+          }, 
+          {
+            "size": 45000, 
+            "name": "Office of Inspector General", 
+            "bud13": 42000
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "name": "Allowances", 
+    "children": [
+      {
+        "name": "Allowances", 
+        "children": [
+          {
+            "size": 10000000, 
+            "name": "Future Disaster Costs", 
+            "bud13": 5500000
+          }
+        ]
+      }
+    ]
+  }
+  ]
+}

@@ -1,0 +1,481 @@
+---
+title: D3 Drilldown Bar
+layout: budget
+---
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <div class="crumbs"><a href="/samples/d3/"><span class="glyphicon glyphicon-home"></span> Open Budget</a> </div>  
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+<div class="container">
+    
+    <div class="row">
+
+          <div class="panel panel-summary">
+          <div class="panel-header">
+            <h3 class="name_val text-center">Panel Title</h3>
+          </div>
+          
+          <div class="panel-body meter">
+            <p class="figure-primary h3 text-center" id="dollar_val">Primary Figure <small class="figure-label">2013 Dollars</small></p>
+
+    
+          </div>
+
+      </div>
+
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-12">
+
+      <h3 class="h5 text-center bump-top">What is it for?</h3>
+      <hr />
+
+     
+      <div id="chart"></div>
+    
+      </div>
+
+    </div><!-- /.row -->
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <h3 class="h5 text-center bump-top">Where is it from?</h3>
+            <hr />
+
+            <div class"row">
+
+                <div class="col-md-8 col-md-offset-2">
+
+                      <div class="biscuit">
+
+                          <span class="flake c" style="width: 2%"></span>
+                          <span class="flake b" style="width: 3%"></span>
+                          <span class="flake " style="width: 19%"></span>
+                        
+                      </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                  <h4 class="bump-top h6">Funding Sources for <span class="name_val"></span></h4>
+
+                  <div class="table-responsive">
+                    <table class="table">
+
+                        <thead>
+
+                            <tr>
+                              <th>Fund</th>
+                              <th>Source</th>
+                              <th>Description</th>
+                              <th class="numeric">Amount ($)</th>
+                              <th class="numeric">Percent (%)</th>
+                            </tr>
+
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>General Fund</td>
+                                <td>Taxes</td>
+                                <td>Taxes</td>
+                                <td class="numeric">954,905</td>
+                                <td class="numeric">76</td>
+
+                            </tr>                    
+
+                            <tr>
+                                <td>General Fund</td>
+                                <td>Services</td>
+                                <td>Charges for Services</td>
+                                <td class="numeric">235,500</td>
+                                <td class="numeric">19</td>
+
+                            </tr>
+
+
+                            <tr>
+                                <td>General Fund</td>
+                                <td>Services</td>
+                                <td>Licenses and Permits</td>
+                                <td class="numeric">40,095</td>
+                                <td class="numeric">3</td>
+
+                            </tr>
+
+
+                            <tr>
+                                <td>State Supported</td>
+                                <td>Transfers</td>
+                                <td>Intergovernmental</td>
+                                <td class="numeric">19,095</td>
+                                <td class="numeric">2</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                  
+                  </div><!-- /.table-responsive -->
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+</div>
+
+
+<% content_for :page_style do %>
+
+    <style type="text/css">
+
+      text {
+        font: 15px "Open Sans", Helvetica, sans-serif;
+      }
+
+      rect.background {
+        fill: #f9f9f9;
+      }
+
+      .axis {
+        shape-rendering: crispEdges;
+      }
+
+      .axis text {
+        fill: #999;
+      }
+
+      .axis path, .axis line {
+        fill: #eee;
+        stroke: 4;
+        width: 1px;
+      }
+
+      .bar  {
+         z-index = 1;
+      }
+
+
+      </style>
+ 
+  
+<% end %>
+
+
+<% content_for :page_js do %>
+
+  <script type="text/javascript" src="/javascripts/d3.js"></script>
+  <script type="text/javascript" src="http://mbostock.github.com/d3/d3.layout.js?2.4.2"></script> 
+
+
+  <script type="text/javascript">
+
+
+      var m = [30, 40, 20, 300], // top right bottom left
+          w = 960 - m[1] - m[3], // width
+          h = 768 - m[0] - m[2], // height
+          x = d3.scale.linear().range([0, w]),
+          y = 22, // bar height
+          z = d3.scale.ordinal().range(["#4db796", "#CEE5E0"]), // bar color
+          duration = 650,
+          delay = 25;
+
+      var hierarchy = d3.layout.partition()
+          .value(function(d) { return d.size; });
+
+      var xAxis = d3.svg.axis()
+          .scale(x)
+          .orient("top")
+          .ticks(4)
+          .tickSize(6,3,0)
+          .tickPadding(5);
+
+      var svg = d3.select("#chart").append("svg:svg")
+          .attr("width", w + m[1] + m[3])
+          .attr("height", h + m[0] + m[2])
+          .append("svg:g")
+          .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+      svg.append("svg:rect")
+          .attr("class", "background")
+          .attr("width", w)
+          .attr("height", h)
+          .on("click", up);
+          
+
+      svg.append("svg:g")
+          .attr("class", "x axis");
+
+      svg.append("svg:g")
+          .attr("class", "y axis")
+          .append("svg:line")
+          .attr("y1", "100%");
+
+       
+
+
+      d3.json("hr_2000_2009.json", function(root) {
+        hierarchy.nodes(root);
+        x.domain([0, root.value]).nice();
+        down(root, 0);
+      });
+
+      function down(d, i) {
+        if (!d.children || this.__transition__) return;
+        var end = duration + d.children.length * delay;
+
+        // Mark any currently-displayed bars as exiting.
+        var exit = svg.selectAll(".enter").attr("class", "exit");
+
+        // Entering nodes immediately obscure the clicked-on bar, so hide it.
+        exit.selectAll("rect").filter(function(p) { return p === d; })
+            .style("fill-opacity", 1e-6);
+
+        // Enter the new bars for the clicked-on data.
+        // Per above, entering bars are immediately visible.
+        var enter = bar(d)
+            .attr("transform", stack(i))
+            .style("opacity", 0.8)
+            ;
+
+       
+         
+        // Have the text fade-in, even though the bars are visible.
+        // Color the bars as parents; they will fade to children if appropriate.
+        enter.select("text").style("fill-opacity", 1e-6);
+        enter.select("rect").style("fill", z(true));
+
+        // Update the x-scale domain.
+        x.domain([0, d3.max(d.children, function(d) { return d.value; })]).nice();
+
+        // Update the x-axis.
+        svg.selectAll(".x.axis").transition().duration(duration).call(xAxis);
+
+        // sorting
+        var sort = false;
+       
+        // Transition entering bars to their new position.
+        var enterTransition = enter.transition()
+            .duration(duration)
+            .delay(function(d, i) { return i * delay; })
+            .attr("transform", function(d, i) { return "translate(0," + y * i * 1.2 + ")"; });
+
+        // Transition entering text.
+        enterTransition.select("text").style("fill-opacity", 1);
+
+        // Transition entering rects to the new x-scale.
+        enterTransition.select("rect")
+            .attr("width", function(d) { return x(d.value); })
+            .style("fill", function(d) { return z(!!d.children); });
+
+        // Transition exiting bars to fade out.
+        var exitTransition = exit.transition()
+            .duration(duration)
+            .style("opacity", 1e-6)
+            .remove();
+
+        // Transition exiting bars to the new x-scale.
+        exitTransition.selectAll("rect").attr("width", function(d) { return x(d.value); });
+
+        // Rebind the current node to the background.
+        svg.select(".background").data([d]).transition().duration(end); d.index = i;
+
+        //Prototype tweaks
+
+        // Give me money
+        var formatter = d3.format("$,10r");
+
+        $(".crumbs").append(" <span class='crumb'> &raquo; <a href='#' onClick='up()'>" + d.name + "</a></span>");
+        $(".name_val").text(d.name);
+        $("#dollar_val").text(formatter(d.value));
+        console.log(formatter(d.value));
+
+       
+
+
+      }
+
+      function up(d) {
+        if (!d.parent || this.__transition__) return;
+        var end = duration + d.children.length * delay;
+
+        // Mark any currently-displayed bars as exiting.
+        var exit = svg.selectAll(".enter").attr("class", "exit");
+
+        // Enter the new bars for the clicked-on data's parent.
+        var enter = bar(d.parent)
+            .attr("transform", function(d, i) { return "translate(0," + y * i * 1.2 + ")"; })
+            .style("opacity", 1e-6);
+
+        // Color the bars as appropriate.
+        // Exiting nodes will obscure the parent bar, so hide it.
+        enter.select("rect")
+            .style("fill", function(d) { return z(!!d.children); })
+          .filter(function(p) { return p === d; })
+            .style("fill-opacity", 1e-6);
+
+        // Update the x-scale domain.
+        x.domain([0, d3.max(d.parent.children, function(d) { return d.value; })]).nice();
+
+        // Update the x-axis.
+        svg.selectAll(".x.axis").transition().duration(duration).call(xAxis);
+
+        // Transition entering bars to fade in over the full duration.
+        var enterTransition = enter.transition()
+            .duration(end)
+            .style("opacity", 1);
+
+        // Transition entering rects to the new x-scale.
+        // When the entering parent rect is done, make it visible!
+        enterTransition.select("rect")
+            .attr("width", function(d) { return x(d.value); })
+            .each("end", function(p) { if (p === d) d3.select(this).style("fill-opacity", null); });
+
+        // Transition exiting bars to the parent's position.
+        var exitTransition = exit.selectAll("g").transition()
+            .duration(duration)
+            .delay(function(d, i) { return i * delay; })
+            .attr("transform", stack(d.index));
+
+        // Transition exiting text to fade out.
+        exitTransition.select("text")
+            .style("fill-opacity", 1e-6);
+
+        // Transition exiting rects to the new scale and fade to parent color.
+        exitTransition.select("rect")
+            .attr("width", function(d) { return x(d.value); })
+            .style("fill", z(true));
+
+        // Remove exiting nodes when the last child has finished transitioning.
+        exit.transition().duration(end).remove();
+
+        // Rebind the current parent to the background.
+        svg.select(".background").data([d.parent]).transition().duration(end);
+
+
+
+
+        // Prototype tweaks
+        // Give me money
+        var formatter = d3.format("$,10r");
+
+      $(".crumbs").find("span.crumb").last().remove();
+      $("#name_val").text(d.parent.name);
+      $("#dollar_val").text(formatter(d.parent.value));
+      console.log(d.parent);
+      console.log(d.parent.value);
+
+      }
+
+
+
+
+      // Creates a set of bars for the given data node, at the specified index.
+      function bar(d) {
+        
+        // Give me money
+        var formatter = d3.format("$,10r");
+
+        var bar = svg.insert("svg:g", ".y.axis")
+            .attr("class", "enter")
+            .attr("transform", "translate(0,5)")
+            .selectAll("g")
+            .data(d.children)
+            .enter().append("svg:g")
+            .style("cursor", function(d) { return !d.children ? null : "pointer"; })
+            .on("click", down)
+            .on("mouseover", function(d){
+              //console.log(d.value);
+            })
+            .text(String);
+
+        bar.append("svg:text")
+            .attr("x", -25)
+            .attr("y", y / 2)
+            .attr("dy", ".35em")
+            .attr("text-anchor", "end")
+            .attr("class", "data-label")
+            .attr("fill", "#555")
+            .text(function(d) { return (d.name); });
+        
+             
+         bar.append("svg:rect")
+            .attr("width", function(d) { return x(d.value); })
+            .attr("height", y)
+            .attr("class", "data-bar")
+            .on('mouseover', function(d){
+                var nodeSelection = d3.select(this).style({opacity:'0.8'});
+                nodeSelection.select("rect").style({opacity:'1.0'});
+            })
+            .on('mouseout', function(d){
+                var nodeSelection = d3.select(this).style({opacity:'1.0'});
+                nodeSelection.select("rect").style({opacity:'0.8'});
+                //console.log(nodeSelection.select("text"));
+            });
+
+
+         bar.append("svg:text") 
+          .attr("x", 32) 
+          .attr("y", y / 2) 
+          .attr("dx", 80) 
+          .attr("dy", ".35em")
+          .attr("fill", "#555")  
+          .attr("text-anchor", "end") 
+          .attr("class", "data-value")
+          .style("visibility", "hidden")
+          .text(function(d) { return (formatter(d.value)); });
+
+         
+        return bar;
+      }
+
+
+
+
+              
+      // A stateful closure for stacking bars horizontally.
+      function stack(i) {
+        var x0 = 0;
+        return function(d) {
+          var tx = "translate(" + x0 + "," + y * i * 1.2 + ")";
+          x0 += x(d.value);
+          return tx;
+        };
+      }
+
+          </script>  
+    
+ 
+<% end %>
+ 
