@@ -64,6 +64,9 @@ dd {
 	}
 	.panel-body {
 		min-height: 250px;
+		&.meter {
+			min-height: 0px;
+		}
 		padding-top: 0;
 		.figure-primary {
 			font-weight: 700;
@@ -154,6 +157,14 @@ body {
  
   &.samples {
   	padding-top: 0px;
+  }
+
+  &.samples_d3 {
+  	padding-top: 70px;
+  }
+
+  &.samples_d3_index {
+  	padding-top: 10px;
   }
 
  }
@@ -275,3 +286,4 @@ footer {
 	height: 40px;
 	padding: 20px 0 40px;
 }
+
