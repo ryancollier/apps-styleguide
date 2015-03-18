@@ -9,12 +9,13 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "The Middleman" %></title>
     
-    <%= stylesheet_link_tag "all", "budget" %>
+    <%= stylesheet_link_tag "all"%>
     <%= yield_content :page_style %>
     
   </head>
   
   <body class="<%= page_classes %>">
+    
     <%= yield %>
 
    <footer>
