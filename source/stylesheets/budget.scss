@@ -5,7 +5,7 @@
 }
 
 .crumbs {
-	padding-top: 10px;
+	margin-top: 10px;
 }
 
 
@@ -48,4 +48,186 @@ table {
 	.numeric {
 		text-align: right;
 	}
+}
+
+/* component styles! */
+.totalsBar {
+	margin: 0 auto;
+    position: relative;
+
+    .mainBar {
+        background-color: #556580;
+        left: 0;
+        height: 11px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* default segment styles */
+    .segment {
+        height: 11px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        
+        .bar {
+            background-color: #fff;
+            height: 100%;
+            opacity: 0.3;
+            transition: opacity 0.2s;
+            width: 100%;
+        }
+        
+        .decoration {
+            height: 100%;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            transition: 0.2s opacity;
+            width: 100%;
+
+            .leftBracket, .rightBracket {
+                border: 1px solid white;
+                height: 11px;
+                position: absolute;
+                top: -1px;
+                width: 4px;
+            }
+            .leftBracket {
+                border-right: none;
+                left: -1px;
+            }
+            .rightBracket {
+                border-left: none;
+                right: -1px;
+            }
+
+            .stroke {
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                height: 100%;
+                margin-left: -2px;
+                margin-top: -2px;
+                width: 100%;
+            }
+        }
+        
+        .trail {
+            border-left: 1px dotted #ddd;
+            height: 11px;
+            opacity: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transition: height 0.15s, opacity 0.2s;
+            width: 0;
+        }
+        
+        .label {
+            left: 100%;
+            padding-left: 2px;
+            position: absolute;
+            transition: opacity 0.2s, top 0.15s;
+            top: -1px;
+            white-space: nowrap; /* maybe bite us later? */
+            z-index: -1;
+        }
+
+        /* entire budget styles */
+        &.entire {
+            width: 100%;
+
+            .bar {
+                opacity: 0 !important;
+            }
+
+            .label {
+                left: auto;
+                padding: 0;
+                right: 3px;
+            }
+        }
+
+        /* fixed segment styles (last two bars) */
+        &.fixed {
+            .trail {
+                height: 22px;
+                opacity: 0.6;
+            }
+            .label { top: 12px; }
+
+            & + .segment.fixed {
+                .trail { height: 35px; }
+                .label { top: 24px; }
+            }
+        }
+
+        /* active segment styles */
+        &:last-child {
+            .bar {
+                background-color: #4db796;
+                opacity: 1;
+            }
+            .label { color: #000; }
+        }
+    }
+
+    &:hover {
+        cursor: default;
+
+        /* hovered bar segment styles */
+        .segment {
+            .bar { opacity: 0.1; }
+            &.fixed .trail { opacity: 0.1; }
+            .label { opacity: 0.3; }
+        }
+
+        /* hovered segment styles */
+        .segment:hover {
+            .bar { opacity: 0.6; }
+            .decoration { opacity: 1; }
+            .trail {
+                height: 22px;
+                opacity: 1;
+            }
+            .label {
+                opacity: 1;
+                top: 12px;
+            }
+
+            /* normal bar labels bump down fixed bar labels */
+            & ~ .fixed {
+                .trail { height: 35px; }
+                .label { top: 24px; }
+
+                & + .fixed {
+                    .trail { height: 46px; }
+                    .label { top: 36px; }
+                }
+            }
+
+            /* active bar hover override */
+            &:last-child {
+                .bar { opacity: 1; }
+            }
+        }
+    }
+}
+
+/* non-component styles */
+.totalsBar {
+    width: 400px;
+
+    .segment.entire + .segment {
+        width: 55%;
+        & + .segment {
+            width: 35%;
+            & + .segment {
+                width: 17%;
+                & + .segment {
+                    width: 6%;
+                }
+            }
+        }
+    }
 }
